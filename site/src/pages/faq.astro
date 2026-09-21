@@ -1,0 +1,196 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Breadcrumbs from "seo-core/components/Breadcrumbs.astro";
+import Accordion from "../components/Accordion.astro";
+import { SAME_AS, SITE_NAME, SITE_URL } from "../config/site";
+import { abs, breadcrumbNode, faqPageNode, orgNode, websiteNode } from "seo-core";
+
+const title = "Website Rebuild, SEO & AEO FAQ | Perfect AI Websites";
+const description =
+  "Answers about Perfect AI Websites, including website rebuilds, SEO, AEO, AI discovery, pricing, content, timing and ownership.";
+const sections = [
+  {
+    id: "rebuild-faq",
+    heading: "The website rebuild",
+    items: [
+      {
+        question: "What does Perfect AI Websites actually do?",
+        answer:
+          "Perfect AI Websites rebuilds underperforming business websites to make them technically strong, SEO-optimized, AEO-optimized, accessible to AI systems and capable of supporting organic discovery.\n\nThe service combines the website rebuild with technical optimization, keyword research, pillar-and-cluster content architecture, analytics and ongoing content publishing.",
+      },
+      {
+        question: "Is this just an SEO service?",
+        answer:
+          "No.\n\nThe website itself is rebuilt, including its content, architecture, technical implementation, SEO/AEO structure and messaging.\n\nSEO, AEO and content architecture are integrated into that rebuild rather than added as separate projects.",
+      },
+      {
+        question: "Is this a design agency?",
+        answer:
+          "Design alignment is included in the website rebuild, and optional rebranding support is available.\n\nHowever, Perfect AI Websites is not positioned as a standalone premium design agency. Design supports the larger objective of creating a technically strong, modern and discovery-ready website.",
+      },
+      {
+        question: "Do you need access to my existing code?",
+        answer:
+          "Existing source code and source materials are preferable because they provide a stronger starting point for the transformation.\n\nIf source code is unavailable, Perfect AI Websites can also rebuild the site using the existing public website as source material.",
+      },
+      {
+        question: "How long does the rebuild take?",
+        answer: "The target implementation period is approximately two weeks.\n\nThe build includes iterations during that period.",
+      },
+    ],
+  },
+  {
+    id: "discovery-faq",
+    heading: "Search and AI discovery",
+    items: [
+      {
+        question: "What is AEO?",
+        answer:
+          "Within the Perfect AI Websites service, AEO refers to optimizing the website and its content for AI-driven answer and discovery systems alongside traditional search.\n\nThe work includes technical optimization, AI accessibility, clear content architecture and structured data intended to make the site understandable and useful to AI answer engines.",
+      },
+      {
+        question: "Does AEO replace SEO?",
+        answer:
+          "No.\n\nPerfect AI Websites is built around the view that businesses still need strong traditional SEO while increasingly needing websites that are accessible and understandable to AI systems.\n\nThe service addresses both.",
+      },
+      {
+        question: "Can you guarantee that my company appears in ChatGPT?",
+        answer:
+          "No.\n\nPerfect AI Websites does not guarantee AI visibility, citations or recommendations.\n\nThe service builds the technical, structural and content foundations intended to improve the site's ability to be discovered and understood across traditional search and AI-driven discovery.",
+      },
+      {
+        question: "Can you guarantee Google rankings?",
+        answer:
+          "No.\n\nThe service provides SEO-oriented technical architecture, keyword research, structured content and ongoing publishing. It does not promise specific search rankings.",
+      },
+    ],
+  },
+  {
+    id: "content-faq",
+    heading: "Keyword research and content",
+    items: [
+      {
+        question: "How do you decide what content to create?",
+        answer:
+          "Perfect AI Websites performs keyword and content research and organizes the strategy into a pillar-and-cluster content architecture.\n\nThe client reviews, controls and approves the keyword and content direction through the portal.",
+      },
+      {
+        question: "How much content is included initially?",
+        answer:
+          "The $2,000 initial engagement includes <strong>4–6 pillar articles</strong> and <strong>one supporting cluster article per pillar</strong>.",
+      },
+      {
+        question: "What is included every month?",
+        answer:
+          "The $250/month ongoing program adds <strong>two new supporting cluster articles per month</strong>.\n\nIt also includes continued analytics access, site health monitoring, continued access, and content and copy refinement.",
+      },
+      {
+        question: "Do I approve the content direction?",
+        answer: "Yes.\n\nKeyword and content direction is reviewed and approved collaboratively through the client portal.",
+      },
+    ],
+  },
+  {
+    id: "pricing-faq",
+    heading: "Pricing and ownership",
+    items: [
+      {
+        question: "How much does Perfect AI Websites cost?",
+        answer:
+          "The initial setup fee is <strong>$2,000</strong>.\n\nThat covers the complete website rebuild, technical SEO/AEO optimization, keyword research, 4–6 pillar articles and one supporting cluster article per pillar.\n\nThe ongoing program is <strong>$250/month</strong>.",
+      },
+      {
+        question: "What does the monthly fee include?",
+        answer:
+          "The monthly program includes two new supporting cluster articles per month, continued analytics access, site health monitoring, continued access, and content and copy refinement.",
+      },
+      {
+        question: "Can I own the website?",
+        answer: "Yes.\n\nClients may request full ownership and handover of the complete website package at any time.",
+      },
+      {
+        question: "What happens to the website if I cancel?",
+        answer: "If services are cancelled, Perfect AI Websites hands over the complete website package at no additional charge.",
+      },
+    ],
+  },
+  {
+    id: "fit-faq",
+    heading: "Who the service is for",
+    items: [
+      {
+        question: "What kind of businesses is Perfect AI Websites designed for?",
+        answer:
+          "The service is designed for businesses with an existing website that is outdated, underperforming, poorly structured for SEO or AEO, lacking a meaningful content strategy, or unlikely to be effectively discovered through Google and AI-driven discovery.\n\nSmaller businesses and local service businesses are expected to benefit particularly strongly.",
+      },
+      {
+        question: "What markets do you serve?",
+        answer: "Perfect AI Websites serves businesses in the United States, Europe and other English-speaking markets.",
+      },
+      {
+        question: "What if my current website already exists but performs poorly?",
+        answer:
+          "That is the core use case for the service.\n\nPerfect AI Websites is specifically designed to rebuild existing underperforming websites and replace the technical, structural and content foundation behind them.",
+      },
+    ],
+  },
+];
+const faqs = sections.flatMap((section) =>
+  section.items.map((item) => ({
+    question: item.question,
+    answer: item.answer.replace(/<[^>]+>/g, ""),
+  })),
+);
+const site = { siteUrl: SITE_URL, siteName: SITE_NAME, sameAs: SAME_AS };
+const pageUrl = abs("/faq/", SITE_URL);
+const crumbs = [
+  { name: "Home", href: abs("/", SITE_URL) },
+  { name: "FAQ", href: pageUrl },
+];
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [orgNode(site), websiteNode(site), breadcrumbNode(crumbs, SITE_URL), faqPageNode(faqs, pageUrl)],
+};
+---
+
+<BaseLayout title={title} description={description} canonicalPath="/faq/" jsonLd={jsonLd}>
+  <section class="surface-2 section-hero">
+    <div class="container-page">
+      <div class="crumbs">
+        <Breadcrumbs crumbs={crumbs} />
+      </div>
+      <div class="measure reveal prose-copy stack">
+        <h1 class="type-h1">Questions about the rebuild, SEO, AEO and ongoing service.</h1>
+        <p class="type-body">The scope and pricing are intentionally straightforward. Here are the details behind the service.</p>
+      </div>
+    </div>
+  </section>
+
+  {
+    sections.map((section, index) => (
+      <section class={index % 2 === 0 ? "surface-white section" : "surface-2 section"} aria-labelledby={section.id}>
+        <div class="container-page">
+          <div class="measure reveal stack">
+            <h2 id={section.id} class="type-h2">
+              {section.heading}
+            </h2>
+            <Accordion items={section.items} />
+          </div>
+        </div>
+      </section>
+    ))
+  }
+
+  <section class="band section" aria-labelledby="faq-close-heading">
+    <div class="container-page">
+      <div class="measure reveal prose-copy stack">
+        <h2 id="faq-close-heading" class="type-h2">Still looking at an underperforming website?</h2>
+        <p class="type-body">The initial rebuild is $2,000 and targets an approximately two-week implementation period.</p>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="/contact/">Rebuild My Site</a>
+          <a class="btn btn-secondary" href="/contact/">Ask a Question</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

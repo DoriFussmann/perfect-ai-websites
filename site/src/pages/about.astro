@@ -1,0 +1,141 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Breadcrumbs from "seo-core/components/Breadcrumbs.astro";
+import { SAME_AS, SITE_NAME, SITE_URL } from "../config/site";
+import { abs, breadcrumbNode, orgNode, websiteNode } from "seo-core";
+
+const title = "About Perfect AI Websites | SEO, AEO & Web Rebuilds";
+const description =
+  "Perfect AI Websites rebuilds underperforming sites for modern discovery across traditional search and AI answer engines.";
+const site = { siteUrl: SITE_URL, siteName: SITE_NAME, sameAs: SAME_AS };
+const pageUrl = abs("/about/", SITE_URL);
+const crumbs = [
+  { name: "Home", href: abs("/", SITE_URL) },
+  { name: "About", href: pageUrl },
+];
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [orgNode(site), websiteNode(site), breadcrumbNode(crumbs, SITE_URL)],
+};
+---
+
+<BaseLayout title={title} description={description} canonicalPath="/about/" jsonLd={jsonLd}>
+  <section class="surface-2 section-hero">
+    <div class="container-page">
+      <div class="crumbs">
+        <Breadcrumbs crumbs={crumbs} />
+      </div>
+      <div class="measure reveal prose-copy stack">
+        <h1 class="type-h1">Websites need to work for how discovery works now.</h1>
+        <p class="type-body">Many businesses already have a website.</p>
+        <p class="type-body">The problem is that the website may do very little to create discovery or demand.</p>
+        <p class="type-body">
+          It may be poorly structured for search, technically weak, thin on useful content or missing a coherent content strategy. And as discovery expands into AI-powered answer and recommendation experiences, the same website may also be difficult for those systems to access, understand and use.
+        </p>
+        <p class="type-body">
+          Perfect AI Websites exists to fix that foundation without the cost, complexity or long timelines associated with a traditional agency engagement.
+        </p>
+        <p><a class="btn btn-primary" href="/services/">See What We Rebuild</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="surface-white section" aria-labelledby="view-heading">
+    <div class="container-page">
+      <div class="measure reveal prose-copy stack">
+        <h2 id="view-heading" class="type-h2">SEO did not disappear because AI arrived.</h2>
+        <p class="type-body">Businesses still need strong traditional SEO.</p>
+        <p class="type-body">They also increasingly need websites and content that are technically accessible, understandable and useful to AI systems.</p>
+        <p class="type-body">We do not treat those as two unrelated problems.</p>
+        <p class="type-body">
+          A technically strong website, clear information architecture, structured data, researched topics and useful content create a stronger foundation for both traditional search and AI-driven discovery.
+        </p>
+        <p class="type-body">That is what we build.</p>
+        <p><a class="btn btn-primary" href="/services/">Explore the Service</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="surface-2 section" aria-labelledby="productized-heading">
+    <div class="container-page">
+      <div class="measure reveal prose-copy stack">
+        <h2 id="productized-heading" class="type-h2">Website work does not need to become an endless agency project.</h2>
+        <p class="type-body">Perfect AI Websites is designed as a repeatable, low-maintenance service.</p>
+        <p class="type-body">
+          The initial engagement has a defined scope, a fixed <strong>$2,000 setup fee</strong>, and an approximately <strong>two-week implementation target</strong>.
+        </p>
+        <p class="type-body">The ongoing program is <strong>$250/month</strong>.</p>
+        <p class="type-body">
+          That structure keeps the work focused on the things the service is designed to do well: technically strong websites, SEO and AEO foundations, researched content architecture, analytics, site health and continued publishing.
+        </p>
+        <p class="type-body">The goal is high technical quality without unnecessary client-service complexity.</p>
+        <p><a class="btn btn-primary" href="/services/">View the Full Service</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="surface-white section" aria-labelledby="principles-heading">
+    <div class="container-page stack">
+      <div class="measure reveal prose-copy">
+        <h2 id="principles-heading" class="type-h2">Technical quality without the theater.</h2>
+      </div>
+      <ul class="card-grid card-grid-services reveal-group">
+        <li class="card reveal">
+          <h3 class="type-h3">Build the foundation properly.</h3>
+          <p class="type-body">The website itself matters. Content cannot compensate for weak architecture and poor technical implementation.</p>
+        </li>
+        <li class="card reveal">
+          <h3 class="type-h3">Research before publishing.</h3>
+          <p class="type-body">Keyword and content direction begins with research and a structured pillar-and-cluster architecture.</p>
+        </li>
+        <li class="card reveal">
+          <h3 class="type-h3">Keep the client in control.</h3>
+          <p class="type-body">Clients review and approve keyword and content direction and retain visibility into analytics and site health.</p>
+        </li>
+        <li class="card reveal">
+          <h3 class="type-h3">Make the engagement easy to understand.</h3>
+          <p class="type-body">The scope, price and ongoing program are stated clearly.</p>
+        </li>
+        <li class="card reveal">
+          <h3 class="type-h3">Build something the client can own.</h3>
+          <p class="type-body">
+            Clients can request ownership and handover of the complete website package at any time. Cancellation includes handover at no additional charge.
+          </p>
+        </li>
+        <li class="card reveal">
+          <h3 class="type-h3">Keep improving.</h3>
+          <p class="type-body">
+            The initial website is a foundation. The monthly content program adds two supporting cluster articles every month to continue expanding the content architecture.
+          </p>
+        </li>
+      </ul>
+      <p class="reveal"><a class="btn btn-primary" href="/services/">See How It Works</a></p>
+    </div>
+  </section>
+
+  <section class="surface-2 section" aria-labelledby="founder-heading">
+    <div class="container-page">
+      <div class="measure reveal prose-copy stack">
+        <h2 id="founder-heading" class="type-h2">Founder-led. Built to operate beyond one person.</h2>
+        <p class="type-body">Perfect AI Websites is a founder-led service supported by a capable team.</p>
+        <p class="type-body">
+          The service is intentionally built around a repeatable process rather than a traditional freelance or high-maintenance agency model.
+        </p>
+        <p class="type-body">That means clear scope, transparent strategy, client-controlled content direction and a system designed to deliver consistently.</p>
+        <p><a class="btn btn-primary" href="/contact/">Talk to Us</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="band section" aria-labelledby="about-close-heading">
+    <div class="container-page">
+      <div class="measure reveal prose-copy stack">
+        <h2 id="about-close-heading" class="type-h2">Fix the website. Build the system behind it.</h2>
+        <p class="type-body">
+          A technically strong website, researched content architecture and an ongoing publishing program — built for modern organic discovery.
+        </p>
+        <p><a class="btn btn-primary" href="/contact/">Rebuild My Site</a></p>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

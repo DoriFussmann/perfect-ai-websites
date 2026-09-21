@@ -1,0 +1,206 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Breadcrumbs from "seo-core/components/Breadcrumbs.astro";
+import CheckList from "../components/CheckList.astro";
+import { SAME_AS, SITE_NAME, SITE_URL } from "../config/site";
+import { abs, breadcrumbNode, orgNode, websiteNode } from "seo-core";
+
+const title = "Rebuild Your Website | Contact Perfect AI Websites";
+const description =
+  "Tell Perfect AI Websites about your current site. Rebuilds include SEO, AEO, content architecture and initial content for $2,000.";
+const includes = [
+  "Complete website rebuild",
+  "Content and architecture rebuild",
+  "Technical SEO optimization",
+  "AEO and AI accessibility optimization",
+  "Structured data",
+  "Keyword and content research",
+  "4–6 pillar articles",
+  "One supporting cluster article per pillar",
+  "Client review and approval",
+  "Build iterations",
+];
+const site = { siteUrl: SITE_URL, siteName: SITE_NAME, sameAs: SAME_AS };
+const pageUrl = abs("/contact/", SITE_URL);
+const crumbs = [
+  { name: "Home", href: abs("/", SITE_URL) },
+  { name: "Contact", href: pageUrl },
+];
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    orgNode(site),
+    websiteNode(site),
+    breadcrumbNode(crumbs, SITE_URL),
+    {
+      "@type": "ContactPage",
+      "@id": `${pageUrl}#webpage`,
+      url: pageUrl,
+      name: title,
+      description,
+      isPartOf: { "@id": `${SITE_URL}#website` },
+      about: { "@id": `${SITE_URL}#org` },
+    },
+  ],
+};
+---
+
+<BaseLayout title={title} description={description} canonicalPath="/contact/" jsonLd={jsonLd}>
+  <section class="surface-2 section-hero">
+    <div class="container-page">
+      <div class="crumbs">
+        <Breadcrumbs crumbs={crumbs} />
+      </div>
+      <div class="measure reveal prose-copy stack">
+        <h1 class="type-h1">Show us the website you want to fix.</h1>
+        <p class="type-body">
+          If your current website is outdated, underperforming, poorly structured for search or missing a meaningful content strategy, send us the site.
+        </p>
+        <p class="type-body">
+          The standard engagement is <strong>$2,000</strong> for the initial rebuild with an approximately <strong>two-week implementation target</strong>, followed by a <strong>$250/month</strong> ongoing program.
+        </p>
+        <p class="type-secondary">United States, Europe and other English-speaking markets.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="surface-white section" id="inquiry" aria-labelledby="includes-heading">
+    <div class="container-page">
+      <div class="split">
+        <div class="split-copy reveal prose-copy stack">
+          <h2 id="includes-heading" class="type-h2">What you are asking us to rebuild</h2>
+          <p class="type-body">The initial engagement includes:</p>
+          <CheckList items={includes} />
+          <p class="type-body"><strong>Price:</strong> $2,000 one time</p>
+          <p class="type-body"><strong>Target implementation:</strong> Approximately two weeks</p>
+          <p class="type-body">
+            After launch, the ongoing program is <strong>$250/month</strong> and includes two additional supporting cluster articles per month, analytics access, site health monitoring, continued access, and content and copy refinement.
+          </p>
+        </div>
+        <div class="split-form reveal">
+          <h2 class="type-h2" id="form-heading">Tell us about the site.</h2>
+          <form id="inquiry-form" class="stack mt-6" novalidate>
+            <div class="field">
+              <label class="type-label" for="name">Name</label>
+              <input id="name" name="name" type="text" autocomplete="name" required />
+              <span class="field-error" id="name-error">Enter your name.</span>
+            </div>
+            <div class="field">
+              <label class="type-label" for="business">Business name</label>
+              <input id="business" name="business" type="text" autocomplete="organization" required />
+              <span class="field-error" id="business-error">Enter your business name.</span>
+            </div>
+            <div class="field">
+              <label class="type-label" for="website">Business website</label>
+              <input id="website" name="website" type="url" inputmode="url" autocomplete="url" placeholder="https://yourbusiness.com" required aria-describedby="website-help website-error" />
+              <span class="type-caption" id="website-help">Enter the website you want us to review.</span>
+              <span class="field-error" id="website-error">Enter a full URL, including https://</span>
+            </div>
+            <div class="field">
+              <label class="type-label" for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" required />
+              <span class="field-error" id="email-error">Enter a valid email address.</span>
+            </div>
+            <div class="field">
+              <label class="type-label" for="issue">What is not working with your current website?</label>
+              <textarea id="issue" name="issue" required aria-describedby="issue-help issue-error"></textarea>
+              <span class="type-caption" id="issue-help">Tell us what you already know. Search visibility, content, technical issues, an outdated site or something else.</span>
+              <span class="field-error" id="issue-error">Tell us what is not working with your current website.</span>
+            </div>
+            <button class="btn btn-primary" type="submit">Review My Website</button>
+          </form>
+          <div id="inquiry-confirmation" class="stack mt-6" hidden>
+            <h3 class="type-h3">We have your website.</h3>
+            <p class="type-body">Thank you. We will use the information you provided to understand the current site and the context behind the rebuild.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="surface-2 section" aria-labelledby="upfront-heading">
+    <div class="container-page">
+      <div class="measure reveal prose-copy stack">
+        <h2 id="upfront-heading" class="type-h2">A few things to know upfront.</h2>
+        <p class="type-body">Perfect AI Websites is a done-for-you website rebuild and ongoing content service.</p>
+        <p class="type-body">It is not a DIY website builder or a standalone premium design engagement.</p>
+        <p class="type-body">
+          The service is designed around technical quality, SEO and AEO foundations, researched content architecture, transparent analytics and continued publishing.
+        </p>
+        <p class="type-body">We do not guarantee specific Google rankings or AI recommendations.</p>
+        <p class="type-body">
+          You maintain visibility into keyword and content direction, analytics and site health, and you can request ownership and handover of the complete website package at any time.
+        </p>
+        <p class="type-body">If you cancel the service, the package is handed over at no additional charge.</p>
+        <p><a class="btn btn-secondary" href="/faq/">Read the FAQ</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="surface-white section" aria-labelledby="reassurance-heading">
+    <div class="container-page">
+      <div class="measure reveal prose-copy stack">
+        <h2 id="reassurance-heading" class="type-h2">Built for you. Available to you.</h2>
+        <p class="type-body">The website is not designed to become something you cannot leave.</p>
+        <p class="type-body">
+          You can request full ownership and handover of the complete website package at any time. If you cancel the ongoing service, the package is handed over at no additional charge.
+        </p>
+        <p><a class="btn btn-primary" href="#inquiry">Review My Website</a></p>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+<script is:inline>
+  (function () {
+    var form = document.getElementById("inquiry-form");
+    var confirmation = document.getElementById("inquiry-confirmation");
+    if (!form || !confirmation) return;
+
+    function fieldOf(input) {
+      return input.closest(".field");
+    }
+
+    function setInvalid(input, invalid) {
+      var field = fieldOf(input);
+      if (!field) return;
+      field.classList.toggle("is-invalid", invalid);
+      input.setAttribute("aria-invalid", invalid ? "true" : "false");
+    }
+
+    function validUrl(value) {
+      try {
+        var url = new URL(value);
+        return url.protocol === "http:" || url.protocol === "https:";
+      } catch (e) {
+        return false;
+      }
+    }
+
+    form.addEventListener("submit", function (event) {
+      event.preventDefault();
+      var name = document.getElementById("name");
+      var business = document.getElementById("business");
+      var website = document.getElementById("website");
+      var email = document.getElementById("email");
+      var issue = document.getElementById("issue");
+      var inputs = [name, business, website, email, issue];
+      var firstInvalid = null;
+      inputs.forEach(function (input) {
+        var invalid = !input.value.trim();
+        if (input === website) invalid = !validUrl(input.value.trim());
+        if (input === email) invalid = !input.checkValidity() || !input.value.trim();
+        setInvalid(input, invalid);
+        if (invalid && !firstInvalid) firstInvalid = input;
+      });
+      if (firstInvalid) {
+        firstInvalid.focus();
+        return;
+      }
+      form.hidden = true;
+      confirmation.hidden = false;
+      var heading = confirmation.querySelector("h3");
+      if (heading) heading.setAttribute("tabindex", "-1");
+      if (heading) heading.focus();
+    });
+  })();
+</script>

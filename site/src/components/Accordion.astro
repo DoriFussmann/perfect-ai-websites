@@ -1,0 +1,38 @@
+---
+interface Item {
+  question: string;
+  answer: string;
+}
+interface Props {
+  items: Item[];
+}
+const { items } = Astro.props;
+---
+
+<div class="accordion">
+  {
+    items.map((item) => (
+      <details class="accordion-item">
+        <summary>
+          <h3>{item.question}</h3>
+          <svg class="chevron" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true" fill="none">
+            <path
+              d="M5 7.5 10 12.5 15 7.5"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </summary>
+        <div class="accordion-panel">
+          <div class="accordion-panel-inner">
+            {item.answer.split("\n\n").map((paragraph) => (
+              <p set:html={paragraph} />
+            ))}
+          </div>
+        </div>
+      </details>
+    ))
+  }
+</div>

@@ -1,31 +1,64 @@
 ---
-import { getCollection } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { ARTICLES_BASE, SITE_NAME, SITE_TAGLINE, SITE_URL, SAME_AS } from "../config/site";
-import { abs, faqPageNode, formatDate, orgNode, websiteNode } from "seo-core";
+import Accordion from "../components/Accordion.astro";
+import CheckList from "../components/CheckList.astro";
+import { SAME_AS, SITE_NAME, SITE_URL } from "../config/site";
+import { abs, faqPageNode, orgNode, websiteNode } from "seo-core";
 
-const articles = (await getCollection("articles", ({ data }) => data.draft !== true)).sort(
-  (a, b) => (b.data.updatedDate || b.data.date).localeCompare(a.data.updatedDate || a.data.date),
-);
-const services = (await getCollection("services")).sort((a, b) => a.data.order - b.data.order);
-const team = await getCollection("team");
-const pillarA = articles.find(
-  (a) => a.data.articleType === "comprehensive" && !a.data.supportingKeyword,
-);
-const latest = articles.slice(0, 3);
-
-const title = `${SITE_NAME} — ${SITE_TAGLINE}`;
+const title = "Website Rebuilds for SEO & AI | Perfect AI Websites";
 const description =
-  "A reusable publication system for original research, technical guides, and operator-facing explainers built to be crawled, cited, and kept current.";
+  "Rebuild your website for modern search and AI discovery. SEO, AEO, content architecture and analytics from $2,000 plus $250/month. About two weeks.";
 const faqs = [
   {
-    question: "What is this site for?",
-    answer: "This is a placeholder homepage for the reusable SEO and GEO template. Replace this copy at Site Activation.",
+    question: "How long does the rebuild take?",
+    answer:
+      "The target implementation period is approximately two weeks. The engagement includes iterations during the build period before launch.",
   },
   {
-    question: "Where should new articles live?",
-    answer: "Published articles are listed under Articles. Each piece is a markdown file with structured frontmatter.",
+    question: "What does the $2,000 include?",
+    answer:
+      "The initial fee covers the complete website rebuild, technical SEO/AEO optimization, keyword research, 4–6 pillar articles and one supporting cluster article per pillar.",
   },
+  {
+    question: "What happens after launch?",
+    answer:
+      "The ongoing program is $250/month and includes two additional supporting cluster articles per month, analytics access, site health monitoring, continued access, and content and copy refinement.",
+  },
+  {
+    question: "Do you need my existing source code?",
+    answer:
+      "Existing source code and source materials are preferable because they allow us to work directly from the current implementation. If source code is unavailable, the website can also be rebuilt using the public website as source material.",
+  },
+  {
+    question: "Can you guarantee that ChatGPT or Google will recommend my business?",
+    answer:
+      "No. Perfect AI Websites builds the technical, structural and content foundations intended to improve search and AI discoverability. It does not promise specific rankings, citations or recommendations.",
+  },
+  {
+    question: "Do I own the website?",
+    answer:
+      "You can request ownership and handover of the complete website package at any time. If you cancel the service, the package is handed over at no additional charge.",
+  },
+];
+const rebuildIncludes = [
+  "Complete website rebuild",
+  "Content and architecture rebuild",
+  "Technical SEO optimization",
+  "AEO and AI accessibility optimization",
+  "Structured data",
+  "Keyword and content research",
+  "4–6 pillar articles",
+  "One initial supporting cluster article per pillar",
+  "Client review and approval through the portal",
+  "Build iterations",
+  "Approximately two-week implementation target",
+];
+const monthlyIncludes = [
+  "Two new supporting cluster articles per month",
+  "Continued analytics access",
+  "Site health monitoring",
+  "Continued site access",
+  "Content and copy refinement",
 ];
 const site = { siteUrl: SITE_URL, siteName: SITE_NAME, sameAs: SAME_AS };
 const pageUrl = abs("/", SITE_URL);
@@ -36,79 +69,218 @@ const jsonLd = {
 ---
 
 <BaseLayout title={title} description={description} canonicalPath="/" jsonLd={jsonLd}>
-  <section class="border-b border-border bg-surface">
-    <div class="container-page py-16">
-      <p class="text-sm uppercase tracking-wide text-highlight mb-3">Publication</p>
-      <h1 class="font-serif text-4xl mb-4">{SITE_NAME}</h1>
-      <p class="text-xl text-muted max-w-3xl">{SITE_TAGLINE}. Original guides and research notes, written to be maintained.</p>
+  <section class="surface-white section-hero">
+    <div class="container-page">
+      <div class="measure reveal prose-copy stack">
+        <h1 class="type-display">Your website should find customers. Right now, it probably doesn't.</h1>
+        <p class="type-body">
+          Perfect AI Websites rebuilds underperforming business websites for modern discovery across Google, traditional search and AI answer engines.
+        </p>
+        <p class="type-body">
+          You get the rebuilt website, technical SEO and AEO foundations, researched content architecture, initial pillar and cluster content, analytics and an ongoing system for expanding organic discovery.
+        </p>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="/contact/">Rebuild My Site</a>
+          <a class="btn btn-secondary" href="/services/">See How It Works</a>
+        </div>
+        <p class="type-secondary">$2,000 setup. Approximately two weeks. $250/month after launch.</p>
+      </div>
     </div>
   </section>
 
-  <section class="container-page py-12" aria-labelledby="latest-heading">
-    <h2 id="latest-heading" class="font-serif text-3xl mb-6">Latest articles</h2>
-    {pillarA && (
-      <p class="mb-6">
-        Start with <a class="text-accent underline" href={`/${ARTICLES_BASE}/${pillarA.id}/`}>{pillarA.data.title}</a>
-        {latest[1] && (
-          <>
-            {" "}and then read <a class="text-accent underline" href={`/${ARTICLES_BASE}/${latest[1].id}/`}>{latest[1].data.title}</a>.
-          </>
-        )}
-      </p>
-    )}
-    <ul class="grid gap-8 md:grid-cols-3">
-      {latest.map((article) => (
-        <li>
-          <p class="text-sm text-muted">{formatDate(article.data.updatedDate || article.data.date)}</p>
-          <h3 class="font-serif text-xl mb-2">
-            <a class="hover:text-accent" href={`/${ARTICLES_BASE}/${article.id}/`}>{article.data.title}</a>
-          </h3>
-          <p>{article.data.description}</p>
-        </li>
-      ))}
-    </ul>
-    <p class="mt-6"><a class="text-accent underline" href={`/${ARTICLES_BASE}/`}>All articles</a></p>
+  <section class="surface-2 section" aria-labelledby="problem-heading">
+    <div class="container-page">
+      <div class="measure reveal prose-copy stack">
+        <h2 id="problem-heading" class="type-h2">Having a website is not the same as being discoverable.</h2>
+        <p class="type-body">A business can have a perfectly functional website and still be difficult to find.</p>
+        <p class="type-body">
+          The problem may be technical. The site may have weak SEO architecture, poor implementation or pages that are difficult for search engines to understand.
+        </p>
+        <p class="type-body">
+          It may be structural. There may be little meaningful content, no researched keyword strategy and no clear relationship between the subjects the business should be known for.
+        </p>
+        <p class="type-body">
+          And increasingly, the same website also needs to be accessible, understandable and useful to AI systems and answer engines.
+        </p>
+        <p class="type-body">Perfect AI Websites addresses the website, SEO, AEO and content architecture together.</p>
+        <p><a class="btn btn-primary" href="/services/">See What We Rebuild</a></p>
+      </div>
+    </div>
   </section>
 
-  {services.length > 0 && (
-    <section class="container-page py-12" aria-labelledby="services-heading">
-      <h2 id="services-heading" class="font-serif text-3xl mb-6">Services</h2>
-      <ul class="grid gap-8 md:grid-cols-2">
-        {services.map((service) => (
-          <li class="border border-border p-6 bg-surface">
-            <h3 class="font-serif text-2xl mb-2">
-              <a class="hover:text-accent" href={`/services/${service.id}/`}>{service.data.title}</a>
-            </h3>
-            <p>{service.data.description}</p>
-          </li>
-        ))}
+  <section class="surface-white section" aria-labelledby="rebuild-heading">
+    <div class="container-page stack">
+      <div class="measure reveal prose-copy">
+        <h2 id="rebuild-heading" class="type-h2">One rebuild. The full discovery foundation.</h2>
+      </div>
+      <ul class="card-grid card-grid-services reveal-group">
+        <li class="card reveal">
+          <h3 class="type-h3">Complete Website Rebuild</h3>
+          <p class="type-body">
+            We rebuild the content, architecture, technical implementation, SEO/AEO structure and messaging of your existing website.
+          </p>
+          <p class="type-body">
+            Where available, we work from the existing codebase and source materials. If source code is unavailable, the public website can be used as the source for the rebuild.
+          </p>
+        </li>
+        <li class="card reveal">
+          <h3 class="type-h3">SEO &amp; AEO Technical Optimization</h3>
+          <p class="type-body">The rebuilt site is structured for traditional search and AI-driven discovery.</p>
+          <p class="type-body">
+            That includes SEO architecture, technical optimization, AEO and AI accessibility optimization, and structured data designed to make the site understandable and useful to search engines and AI answer engines.
+          </p>
+        </li>
+        <li class="card reveal">
+          <h3 class="type-h3">Keyword Research &amp; Content Architecture</h3>
+          <p class="type-body">
+            We research the topics and keywords around the business and turn them into a structured pillar-and-cluster content architecture.
+          </p>
+          <p class="type-body">
+            The initial engagement includes 4–6 pillar articles and one supporting cluster article for each pillar.
+          </p>
+          <p class="type-body">You review and approve the direction through the client portal.</p>
+        </li>
+        <li class="card reveal">
+          <h3 class="type-h3">Analytics &amp; Site Health</h3>
+          <p class="type-body">After launch, you retain visibility into analytics and site health.</p>
+          <p class="type-body">
+            The goal is not to hand over a website and disappear. The website becomes an organic content system that can continue expanding over time.
+          </p>
+        </li>
+        <li class="card reveal">
+          <h3 class="type-h3">Ongoing Content</h3>
+          <p class="type-body">
+            The monthly program adds two supporting cluster articles every month, alongside continued analytics access, site health monitoring, and content and copy refinement.
+          </p>
+        </li>
       </ul>
-    </section>
-  )}
+      <p class="reveal"><a class="btn btn-primary" href="/services/">Explore the Full Service</a></p>
+    </div>
+  </section>
 
-  {team.length > 0 && (
-    <section class="container-page py-12" aria-labelledby="team-heading">
-      <h2 id="team-heading" class="font-serif text-3xl mb-6">Team</h2>
-      <ul class="grid gap-6 md:grid-cols-2">
-        {team.map((member) => (
-          <li>
-            <h3 class="font-serif text-xl">
-              <a class="hover:text-accent" href={`/team/${member.id}/`}>{member.data.name}</a>
-            </h3>
-            <p class="text-muted">{member.data.role}</p>
-          </li>
-        ))}
-      </ul>
-    </section>
-  )}
+  <section class="surface-2 section" aria-labelledby="search-heading">
+    <div class="container-page">
+      <div class="measure reveal prose-copy stack">
+        <h2 id="search-heading" class="type-h2">Search changed. Your website still needs the fundamentals.</h2>
+        <p class="type-body">Traditional search still matters.</p>
+        <p class="type-body">
+          Strong technical implementation, useful pages, clear site architecture, researched topics and structured content remain fundamental to organic discovery.
+        </p>
+        <p class="type-body">
+          But discovery is also expanding into AI-powered answer and recommendation experiences. Those systems need to access, understand and make sense of your business and its content.
+        </p>
+        <p class="type-body">That does not require abandoning SEO for a new acronym.</p>
+        <p class="type-body">
+          It requires building a technically strong website with clear information architecture, structured data, useful content and an intentional approach to both search engines and AI systems.
+        </p>
+        <p class="type-body">That is the foundation Perfect AI Websites builds.</p>
+        <p><a class="btn btn-primary" href="/services/">See the Technical Approach</a></p>
+      </div>
+    </div>
+  </section>
 
-  <section class="container-page py-12" aria-labelledby="home-faq-heading">
-    <h2 id="home-faq-heading" class="font-serif text-3xl mb-4">Frequently asked questions</h2>
-    {faqs.map((faq) => (
-      <details class="border-b border-border py-3">
-        <summary class="cursor-pointer py-2 tap-target font-medium">{faq.question}</summary>
-        <p class="mt-2 text-muted">{faq.answer}</p>
-      </details>
-    ))}
+  <section class="surface-white section" aria-labelledby="process-heading">
+    <div class="container-page stack">
+      <div class="measure reveal prose-copy">
+        <h2 id="process-heading" class="type-h2">From your current website to a new foundation in approximately two weeks.</h2>
+      </div>
+      <ol class="steps reveal-group">
+        <li class="reveal">
+          <p class="step-index">01</p>
+          <h3 class="type-h3 mt-3">Review and rebuild</h3>
+          <p class="type-body mt-3">
+            We review your existing website and source materials and rebuild the content, architecture, technical implementation, SEO/AEO structure and messaging.
+          </p>
+          <p class="type-body mt-3">Existing source code is preferable when available, but it is not required.</p>
+        </li>
+        <li class="reveal">
+          <p class="step-index">02</p>
+          <h3 class="type-h3 mt-3">Research and approve</h3>
+          <p class="type-body mt-3">
+            We research the keywords and topics around your business and create the pillar-and-cluster content architecture.
+          </p>
+          <p class="type-body mt-3">
+            You review and control the direction through the client portal. The build includes iterations before launch.
+          </p>
+        </li>
+        <li class="reveal">
+          <p class="step-index">03</p>
+          <h3 class="type-h3 mt-3">Launch and keep building</h3>
+          <p class="type-body mt-3">
+            The rebuilt website launches with its initial content foundation: 4–6 pillar articles and one supporting cluster article per pillar.
+          </p>
+          <p class="type-body mt-3">
+            The monthly program then adds two new supporting cluster articles each month while maintaining analytics access and site health monitoring.
+          </p>
+        </li>
+      </ol>
+      <p class="reveal"><a class="btn btn-primary" href="/contact/">Start My Rebuild</a></p>
+    </div>
+  </section>
+
+  <section class="surface-2 section" aria-labelledby="pricing-heading">
+    <div class="container-page stack">
+      <div class="measure reveal">
+        <h2 id="pricing-heading" class="type-h2">The price is straightforward.</h2>
+      </div>
+      <div class="card-grid-2 reveal-group">
+        <article class="card reveal">
+          <h3 class="type-h3">Website Rebuild</h3>
+          <p class="price">$2,000 one time</p>
+          <p class="type-label">Includes</p>
+          <CheckList items={rebuildIncludes} />
+          <a class="btn btn-primary mt-auto" href="/contact/">Rebuild My Site</a>
+        </article>
+        <article class="card reveal">
+          <h3 class="type-h3">Ongoing Program</h3>
+          <p class="price">$250/month</p>
+          <p class="type-label">Includes</p>
+          <CheckList items={monthlyIncludes} />
+          <p class="type-body">
+            No lock-in to the website itself. You can request ownership and handover of the complete website package at any time. If you cancel the service, the package is handed over at no additional charge.
+          </p>
+          <a class="btn btn-secondary mt-auto" href="/services/">See the Full Service</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="surface-white section" aria-labelledby="ownership-heading">
+    <div class="container-page">
+      <div class="measure reveal prose-copy stack">
+        <h2 id="ownership-heading" class="type-h2">Your website stays your asset.</h2>
+        <p class="type-body">A managed service should not mean losing control of your website.</p>
+        <p class="type-body">
+          You have visibility into analytics, site health, keyword strategy and content direction. Keyword and content decisions are reviewed and approved collaboratively through the portal.
+        </p>
+        <p class="type-body">You can also request full ownership and handover of the complete website package at any time.</p>
+        <p class="type-body">If you cancel the service, the complete package is handed over at no additional charge.</p>
+        <p class="type-body">The goal is simple: make the service useful enough to keep, not difficult to leave.</p>
+        <p><a class="btn btn-primary" href="/contact/">Ask a Question</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="surface-2 section" aria-labelledby="home-faq-heading">
+    <div class="container-page">
+      <div class="measure reveal stack">
+        <h2 id="home-faq-heading" class="type-h2">The obvious questions.</h2>
+        <Accordion items={faqs} />
+        <p><a class="btn btn-secondary" href="/faq/">Read All FAQs</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="band section" aria-labelledby="close-heading">
+    <div class="container-page">
+      <div class="measure reveal prose-copy stack">
+        <h2 id="close-heading" class="type-h2">Your website already exists. Make it work harder.</h2>
+        <p class="type-body">
+          Rebuild the foundation for search, AI discovery and an organic content system that keeps expanding.
+        </p>
+        <p class="type-body">$2,000 setup. Approximately two weeks. $250/month after launch.</p>
+        <p><a class="btn btn-primary" href="/contact/">Rebuild My Site</a></p>
+      </div>
+    </div>
   </section>
 </BaseLayout>

@@ -1,0 +1,229 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Breadcrumbs from "seo-core/components/Breadcrumbs.astro";
+import CheckList from "../../components/CheckList.astro";
+import { SAME_AS, SITE_NAME, SITE_URL } from "../../config/site";
+import { abs, breadcrumbNode, orgNode, websiteNode } from "seo-core";
+
+const title = "SEO & AEO Website Rebuild Services | Perfect AI Websites";
+const description =
+  "Complete website rebuilds combining technical SEO, AEO, keyword research, content architecture, analytics and ongoing publishing.";
+const site = { siteUrl: SITE_URL, siteName: SITE_NAME, sameAs: SAME_AS };
+const pageUrl = abs("/services/", SITE_URL);
+const crumbs = [
+  { name: "Home", href: abs("/", SITE_URL) },
+  { name: "Services", href: pageUrl },
+];
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    orgNode(site),
+    websiteNode(site),
+    breadcrumbNode(crumbs, SITE_URL),
+    {
+      "@type": "Service",
+      "@id": `${pageUrl}#service`,
+      name: "A complete website rebuild for modern organic discovery",
+      description,
+      provider: { "@id": `${SITE_URL}#org` },
+      url: pageUrl,
+    },
+  ],
+};
+const rebuildIncluded = [
+  "Website content rebuild",
+  "Site architecture rebuild",
+  "Technical implementation",
+  "SEO/AEO structure",
+  "Messaging refinement",
+  "Design alignment",
+  "Optional rebranding support",
+  "Build iterations",
+];
+const initialContent = [
+  "Researched keyword strategy",
+  "Pillar-and-cluster content architecture",
+  "4–6 pillar articles",
+  "One initial supporting cluster article per pillar",
+  "Client review and approval through the portal",
+];
+const monthlyProgram = [
+  "Two supporting cluster articles per month",
+  "Analytics access",
+  "Site health monitoring",
+  "Continued access",
+  "Content and copy refinement",
+];
+---
+
+<BaseLayout title={title} description={description} canonicalPath="/services/" jsonLd={jsonLd}>
+  <section class="surface-2 section-hero">
+    <div class="container-page">
+      <div class="crumbs">
+        <Breadcrumbs crumbs={crumbs} />
+      </div>
+      <div class="measure reveal prose-copy stack">
+        <h1 class="type-h1">A complete website rebuild for modern organic discovery.</h1>
+        <p class="type-body">
+          Perfect AI Websites combines website rebuilding, technical SEO, AEO and AI accessibility, keyword research, content architecture, analytics and ongoing publishing in one productized service.
+        </p>
+        <p class="type-body">The objective is not simply to make an old website look newer.</p>
+        <p class="type-body">
+          It is to replace an underperforming website with a technically strong foundation designed around how businesses are discovered through traditional search and increasingly through AI-driven answer and recommendation systems.
+        </p>
+        <p><a class="btn btn-primary" href="/contact/">Rebuild My Site</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="surface-white section" aria-labelledby="rebuild-heading">
+    <div class="container-page">
+      <div class="measure reveal prose-copy stack">
+        <h2 id="rebuild-heading" class="type-h2">Complete Website Rebuild</h2>
+        <p class="type-body">The engagement starts with the website itself.</p>
+        <p class="type-body">We rebuild its content, architecture, technical implementation, SEO/AEO structure and messaging.</p>
+        <p class="type-body">
+          Where possible, we work from the existing codebase and source materials. This provides the strongest starting point for transforming the current website. If the source code is unavailable, the public website can also be used as source material.
+        </p>
+        <p class="type-body">
+          Design is aligned as part of the rebuild, with optional rebranding support where appropriate, but this is not positioned as a standalone premium design engagement. The focus remains on creating a strong, modern website that supports discovery.
+        </p>
+        <p class="type-body">The build includes iterations during the approximately two-week implementation period.</p>
+        <p class="type-label">Included</p>
+        <CheckList items={rebuildIncluded} />
+        <p><a class="btn btn-primary" href="/contact/">Start a Website Rebuild</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="surface-2 section" aria-labelledby="technical-heading">
+    <div class="container-page">
+      <div class="measure reveal prose-copy stack">
+        <h2 id="technical-heading" class="type-h2">SEO and AEO start with the same thing: a website systems can understand.</h2>
+        <p class="type-body">
+          A website cannot rely on content alone if the underlying implementation makes that content difficult to discover or interpret.
+        </p>
+        <p class="type-body">The rebuild includes technical foundations for traditional search and AI-driven discovery.</p>
+        <p class="type-body">This covers SEO architecture, technical optimization, AEO and AI accessibility optimization, and structured data.</p>
+        <p class="type-body">
+          The objective is to make the website technically accessible, understandable and useful to both established search engines and emerging AI answer engines.
+        </p>
+        <p class="type-body">
+          This is not a promise of a particular ranking or AI recommendation. It is the technical foundation required to compete for organic discovery across both environments.
+        </p>
+        <p><a class="btn btn-primary" href="/contact/">Ask About the Technical Rebuild</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="surface-white section" aria-labelledby="content-heading">
+    <div class="container-page">
+      <div class="measure reveal prose-copy stack">
+        <h2 id="content-heading" class="type-h2">Content starts with architecture, not volume.</h2>
+        <p class="type-body">Publishing disconnected articles is not a content strategy.</p>
+        <p class="type-body">
+          Perfect AI Websites researches the keywords and topics relevant to the business and organizes the resulting strategy into a pillar-and-cluster architecture.
+        </p>
+        <p class="type-body">
+          The initial rebuild includes <strong>4–6 pillar articles</strong>. Each pillar begins with <strong>one supporting cluster article</strong>, creating the first layer of a content system that can expand over time.
+        </p>
+        <p class="type-body">The client is not removed from this process.</p>
+        <p class="type-body">
+          Keyword and content research is performed by Perfect AI Websites, while the direction is reviewed, controlled and approved collaboratively through the client portal.
+        </p>
+        <p class="type-body">That gives the business visibility into what is being built and why.</p>
+        <p class="type-label">Initial content package</p>
+        <CheckList items={initialContent} />
+        <p><a class="btn btn-primary" href="/faq/">See How the Process Works</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="surface-2 section" aria-labelledby="analytics-heading">
+    <div class="container-page">
+      <div class="measure reveal prose-copy stack">
+        <h2 id="analytics-heading" class="type-h2">See what is happening after launch.</h2>
+        <p class="type-body">Clients have transparent access to analytics and site health information.</p>
+        <p class="type-body">
+          The portal also provides a place to review and approve keyword and content direction, keeping the strategy visible rather than hiding it inside an agency process.
+        </p>
+        <p class="type-body">The ongoing service combines that visibility with continued site health monitoring and content expansion.</p>
+        <p><a class="btn btn-primary" href="/contact/">Start My Rebuild</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="surface-white section" aria-labelledby="monthly-heading">
+    <div class="container-page">
+      <div class="measure reveal prose-copy stack">
+        <h2 id="monthly-heading" class="type-h2">Two new supporting articles every month.</h2>
+        <p class="type-body">The initial rebuild creates the foundation. The monthly program keeps expanding it.</p>
+        <p class="type-body">
+          For <strong>$250/month</strong>, Perfect AI Websites adds two new supporting cluster articles each month while maintaining analytics access, site health monitoring, continued access, and content and copy refinement.
+        </p>
+        <p class="type-body">
+          The intent is to build a sustainable organic content infrastructure without turning the relationship into a high-maintenance agency engagement.
+        </p>
+        <p class="type-label">Monthly program includes</p>
+        <CheckList items={monthlyProgram} />
+        <p class="price">$250/month</p>
+        <p><a class="btn btn-primary" href="/contact/">Rebuild First. Keep Building After.</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="surface-2 section" aria-labelledby="system-heading">
+    <div class="container-page">
+      <div class="measure reveal prose-copy stack">
+        <h2 id="system-heading" class="type-h2">One system, not five disconnected services.</h2>
+        <div>
+          <h3 class="type-h3">Website rebuild</h3>
+          <p class="type-body mt-2">Fix the content, architecture, implementation and messaging.</p>
+        </div>
+        <div>
+          <h3 class="type-h3">Technical SEO &amp; AEO</h3>
+          <p class="type-body mt-2">Create the technical foundation for search engines and AI systems.</p>
+        </div>
+        <div>
+          <h3 class="type-h3">Keyword research</h3>
+          <p class="type-body mt-2">Identify and organize the subjects the website should cover.</p>
+        </div>
+        <div>
+          <h3 class="type-h3">Pillar and cluster content</h3>
+          <p class="type-body mt-2">Build structured content around that research.</p>
+        </div>
+        <div>
+          <h3 class="type-h3">Analytics and site health</h3>
+          <p class="type-body mt-2">Maintain visibility after launch.</p>
+        </div>
+        <div>
+          <h3 class="type-h3">Ongoing publishing</h3>
+          <p class="type-body mt-2">Add two new supporting cluster articles each month.</p>
+        </div>
+        <p class="type-body">
+          Together, these form one organic discovery system rather than a collection of isolated marketing projects.
+        </p>
+        <p><a class="btn btn-primary" href="/contact/">Rebuild My Site</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="band section" aria-labelledby="services-price-heading">
+    <div class="container-page">
+      <div class="measure reveal prose-copy stack">
+        <h2 id="services-price-heading" class="type-h2">$2,000 to rebuild. $250/month to keep expanding.</h2>
+        <p class="type-body">
+          The <strong>$2,000 one-time setup fee</strong> covers the complete website rebuild, technical SEO/AEO optimization, keyword research, 4–6 pillar articles and one supporting cluster article per pillar.
+        </p>
+        <p class="type-body">The target implementation period is approximately two weeks and includes iterations.</p>
+        <p class="type-body">
+          After launch, the <strong>$250/month ongoing program</strong> includes two new supporting cluster articles per month, continued access, analytics, site health monitoring, and content and copy refinement.
+        </p>
+        <p class="type-body">
+          You can request full ownership and handover of the complete website package at any time. If you cancel, the package is handed over at no additional charge.
+        </p>
+        <p><a class="btn btn-primary" href="/contact/">Start My Rebuild</a></p>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

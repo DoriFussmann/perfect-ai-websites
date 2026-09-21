@@ -1,16 +1,54 @@
 ---
-import { ARTICLES_BASE, SITE_NAME } from "../config/site";
+const links = [
+  { href: "/", label: "Home" },
+  { href: "/services/", label: "Services" },
+  { href: "/articles/", label: "Articles" },
+  { href: "/about/", label: "About" },
+  { href: "/faq/", label: "FAQ" },
+  { href: "/contact/", label: "Contact" },
+];
+const year = new Date().getUTCFullYear();
 ---
 
-<footer class="border-t border-border mt-16">
-  <div class="container-page py-8 text-sm text-muted flex flex-wrap gap-4 items-center justify-between">
-    <p>© {new Date().getUTCFullYear()} {SITE_NAME}</p>
-    <nav>
-      <ul class="flex gap-2">
-        <li><a class="nav-link py-3" href="/">Home</a></li>
-        <li><a class="nav-link py-3" href={`/${ARTICLES_BASE}/`}>Articles</a></li>
-        <li><a class="nav-link py-3" href="/team/">Team</a></li>
-      </ul>
-    </nav>
+<footer class="site-footer">
+  <div class="container-page">
+    <div class="footer-grid">
+      <div>
+        <a href="/" class="wordmark wordmark-band">
+          <span class="wordmark-primary">Perfect AI</span>
+          <span class="wordmark-rest">Websites</span>
+        </a>
+        <p class="footer-copy mt-4">
+          Websites rebuilt for modern discovery across traditional search and AI answer engines.
+        </p>
+      </div>
+      <nav aria-label="Footer">
+        <p class="footer-label">Navigation</p>
+        <ul class="footer-links">
+          {links.map((link) => (
+            <li><a href={link.href}>{link.label}</a></li>
+          ))}
+        </ul>
+      </nav>
+      <div class="stack">
+        <div>
+          <p class="footer-label">Service summary</p>
+          <p class="footer-copy mt-3">
+            Complete website rebuilds, technical SEO and AEO optimization, keyword research, pillar-and-cluster content architecture, analytics and ongoing content publishing.
+          </p>
+        </div>
+        <div>
+          <p class="footer-label">Pricing</p>
+          <p class="footer-copy mt-3">$2,000 initial rebuild.<br />$250/month ongoing program.</p>
+        </div>
+        <div>
+          <p class="footer-label">Markets</p>
+          <p class="footer-copy mt-3">United States, Europe and other English-speaking markets.</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bar">
+      <p>© {year} Perfect AI Websites</p>
+    </div>
   </div>
 </footer>

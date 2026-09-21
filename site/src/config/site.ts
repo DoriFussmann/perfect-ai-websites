@@ -1,7 +1,8 @@
-// TEMPLATE: replace every value below at Site Activation (Layer 2).
-export const SITE_URL = "https://example.com";
-export const SITE_NAME = "Site Name";
-export const SITE_TAGLINE = "Primary positioning phrase"; // used in homepage <title>
+// Site identity. Placeholder values are replaced at activation.
+export const SITE_URL = "https://perfectaiwebsites.com";
+export const SITE_NAME = "Perfect AI Websites";
+export const SITE_TAGLINE =
+  "Websites rebuilt for modern discovery across traditional search and AI answer engines.";
 export const SAME_AS: string[] = [];
 export const ARTICLES_BASE = "articles";          // URL segment; changing later requires redirects
 export const GOOGLE_SITE_VERIFICATION = "";       // rendered as <meta> only when non-empty

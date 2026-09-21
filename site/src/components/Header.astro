@@ -1,26 +1,51 @@
 ---
-import { ARTICLES_BASE, SITE_NAME } from "../config/site";
+const links = [
+  { href: "/", label: "Home" },
+  { href: "/services/", label: "Services" },
+  { href: "/articles/", label: "Articles" },
+  { href: "/about/", label: "About" },
+  { href: "/faq/", label: "FAQ" },
+  { href: "/contact/", label: "Contact" },
+];
+const path = Astro.url.pathname;
+function current(href: string) {
+  if (href === "/") return path === "/";
+  return path === href || path.startsWith(href);
+}
 ---
 
-<header class="border-b border-border bg-surface">
-  <div class="container-page flex items-center justify-between gap-4 py-2">
-    <a href="/" class="font-serif text-xl py-3">{SITE_NAME}</a>
+<header class="site-header">
+  <div class="container-page site-header-inner">
+    <a href="/" class="wordmark wordmark-band">
+      <span class="wordmark-primary">Perfect AI</span>
+      <span class="wordmark-rest">Websites</span>
+    </a>
     <button
       type="button"
       id="nav-toggle"
-      class="tap-target inline-flex items-center justify-center md:hidden"
+      class="nav-toggle tap-target md:hidden"
       aria-expanded="false"
       aria-controls="site-nav"
     >
       <span class="sr-only">Menu</span>
-      <span aria-hidden="true">☰</span>
+      <svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true" fill="none">
+        <path d="M3 5h14M3 10h14M3 15h14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+      </svg>
     </button>
-    <nav id="site-nav" class="hidden md:block">
-      <ul class="flex flex-col md:flex-row md:items-center">
-        <li><a class="nav-link" href="/">Home</a></li>
-        <li><a class="nav-link" href={`/${ARTICLES_BASE}/`}>Articles</a></li>
-        <li><a class="nav-link" href="/team/">Team</a></li>
+    <button type="button" id="nav-overlay" class="nav-overlay" tabindex="-1" aria-label="Close menu"></button>
+    <nav id="site-nav" class="site-nav" aria-label="Primary">
+      <ul>
+        {
+          links.map((link) => (
+            <li>
+              <a class="nav-link-band" href={link.href} aria-current={current(link.href) ? "page" : undefined}>
+                {link.label}
+              </a>
+            </li>
+          ))
+        }
       </ul>
+      <a class="btn btn-primary" href="/contact/">Rebuild My Site</a>
     </nav>
   </div>
 </header>
@@ -28,10 +53,35 @@ import { ARTICLES_BASE, SITE_NAME } from "../config/site";
   (function () {
     var toggle = document.getElementById("nav-toggle");
     var nav = document.getElementById("site-nav");
-    if (!toggle || !nav) return;
+    var overlay = document.getElementById("nav-overlay");
+    if (!toggle || !nav || !overlay) return;
+    var mq = window.matchMedia("(min-width: 768px)");
+    function setOpen(open) {
+      var desktop = mq.matches;
+      var show = desktop ? false : open;
+      nav.classList.toggle("is-open", show);
+      overlay.classList.toggle("is-open", show);
+      toggle.setAttribute("aria-expanded", show ? "true" : "false");
+      if (desktop || show) nav.removeAttribute("inert");
+      else nav.setAttribute("inert", "");
+      document.body.style.overflow = show ? "hidden" : "";
+    }
+    setOpen(false);
     toggle.addEventListener("click", function () {
-      var open = nav.classList.toggle("hidden") === false;
-      toggle.setAttribute("aria-expanded", open ? "true" : "false");
+      setOpen(!nav.classList.contains("is-open"));
+    });
+    overlay.addEventListener("click", function () {
+      setOpen(false);
+    });
+    nav.addEventListener("click", function (event) {
+      var target = event.target;
+      if (target && target.closest && target.closest("a")) setOpen(false);
+    });
+    document.addEventListener("keydown", function (event) {
+      if (event.key === "Escape") setOpen(false);
+    });
+    mq.addEventListener("change", function () {
+      setOpen(false);
     });
   })();
 </script>

@@ -9,14 +9,14 @@ const jsonLd = { "@context": "https://schema.org", "@graph": [orgNode(site), web
 
 <BaseLayout
   title={`Page not found — ${SITE_NAME}`}
-  description="The page you requested is not in this publication. Use the navigation to return home or browse articles."
+  description="The page you requested is not on this site. Use the navigation to return home."
   canonicalPath="/404/"
   robots="noindex, follow"
   jsonLd={jsonLd}
 >
   <div class="container-page py-16">
-    <h1 class="font-serif text-4xl mb-4">Page not found</h1>
-    <p class="mb-4">That URL is not part of this site.</p>
-    <p><a class="text-accent underline" href="/">Return home</a></p>
+    <h1 class="type-h1 mb-4">Page not found</h1>
+    <p class="type-body mb-4">That URL is not part of this site.</p>
+    <p><a class="btn btn-primary" href="/">Return home</a></p>
   </div>
 </BaseLayout>

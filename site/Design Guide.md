@@ -1,18 +1,18 @@
 # Design Guide
 
-Generic placeholder tokens for the Layer 1 template. Replace every value at Site Activation (Layer 2).
+Resolved tokens for the Tailwind build. Visual decisions come from the repository Design Guide. House rules override the raw token fence there: Inter only, weights 400–500, body text at least 16px, and contrast-safe colors from the extended palette.
 
 ## Brand identity
 
-Site Name is a calm, editorial publication system. Visual language is typographic first: a readable serif for article titles, a variable sans for interface and body, and a restrained blue accent used for links, focus, and primary actions. Imagery is documentary rather than decorative. There is no client mark in this template — the favicon is a geometric placeholder.
+Perfect AI Websites. Wordmark: "Perfect AI" in band `#0D1F4E` at weight 500, "Websites" in accent `#1A5FD4` at weight 400. On the navy band, both parts use light colors that meet WCAG AA.
 
 ## Color palette
 
-Background is a warm off-white. Text is near-black, never pure black. Accent blue is used for links and chrome, not large fills. Gold is a sparse highlight (hero rules, not body text). Muted stone is for bylines, captions, and secondary labels. All text/background pairs in this file meet WCAG AA.
+Light surfaces only. Accent `#1A5FD4` for actions and links. Band `#0D1F4E` for navigation and footer. Positive `#1A9E6B` for icons and large indicators only, never small body text on white.
 
 ## Typography
 
-Primary UI and body: Inter variable. Display and article titles: Source Serif 4 variable. `font-display: swap`. No Google Fonts request in Layer 1 — both families are self-hosted via Fontsource. Body size is 1.125rem with a 1.7 line-height for long reading. Labels and admin UI stay on the sans family at a denser scale.
+Inter Variable only, self-hosted. Weights 400 and 500. Body 17px. No second display family.
 
 ## Spacing & layout
 
@@ -33,19 +33,19 @@ Parseable JSON. `site/design-tokens.mjs` reads this fence and feeds `tailwind.co
 ```tokens
 {
   "colors": {
-    "bg": "#FAFAF7",
-    "fg": "#1C1917",
-    "accent": "#1D4E89",
-    "accent-hover": "#163A66",
-    "highlight": "#C4A35A",
-    "muted": "#57534E",
-    "border": "#E7E5E4",
+    "bg": "#FFFFFF",
+    "fg": "#111827",
+    "accent": "#1A5FD4",
+    "accent-hover": "#1450B8",
+    "highlight": "#1A9E6B",
+    "muted": "#4B5563",
+    "border": "#D1D8E8",
     "surface": "#FFFFFF",
-    "focus": "#1D4E89"
+    "focus": "#1A5FD4"
   },
   "fonts": {
     "sans": "Inter Variable",
-    "serif": "Source Serif 4 Variable"
+    "serif": "Inter Variable"
   },
   "typeScale": {
     "xs": "0.75rem",

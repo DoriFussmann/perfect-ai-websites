@@ -1,0 +1,26 @@
+---
+interface Props {
+  items: string[];
+}
+const { items } = Astro.props;
+---
+
+<ul class="check-list">
+  {
+    items.map((item) => (
+      <li>
+        <svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true">
+          <path
+            d="M4 10.5 8 14.5 16 6.5"
+            fill="none"
+            stroke="#1A9E6B"
+            stroke-width="1.75"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+        <span>{item}</span>
+      </li>
+    ))
+  }
+</ul>

@@ -1,0 +1,99 @@
+---
+import "../styles/global.css";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import BackToTop from "seo-core/components/BackToTop.astro";
+import { SITE_NAME, SITE_URL, GOOGLE_SITE_VERIFICATION } from "../config/site";
+import { abs } from "seo-core";
+import interLatin from "@fontsource-variable/inter/files/inter-latin-wght-normal.woff2?url";
+
+interface Props {
+  title: string;
+  description: string;
+  canonicalPath: string;
+  ogType?: string;
+  ogImage?: string;
+  ogDescription?: string;
+  robots?: string;
+  locale?: string;
+  twitterCard?: "summary" | "summary_large_image";
+  jsonLd: Record<string, unknown>;
+  articleMeta?: {
+    publishedTime: string;
+    modifiedTime: string;
+    author: string;
+    tags: string[];
+    section?: string;
+  };
+}
+
+const {
+  title,
+  description,
+  canonicalPath,
+  ogType = "website",
+  ogImage,
+  ogDescription,
+  robots = "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+  locale = "en_US",
+  twitterCard = "summary_large_image",
+  jsonLd,
+  articleMeta,
+} = Astro.props;
+
+if (!title) throw new Error("BaseLayout requires a title");
+if (!description) throw new Error("BaseLayout requires a description");
+
+const canonical = abs(canonicalPath, SITE_URL);
+const metaDescription = description;
+const ogDesc = ogDescription || metaDescription;
+const rssHref = abs("/rss.xml", SITE_URL);
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={metaDescription} />
+    <meta name="robots" content={robots} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="alternate" type="application/rss+xml" title={SITE_NAME} href={rssHref} />
+    {GOOGLE_SITE_VERIFICATION && (
+      <meta name="google-site-verification" content={GOOGLE_SITE_VERIFICATION} />
+    )}
+    <meta property="og:site_name" content={SITE_NAME} />
+    <meta property="og:type" content={ogType} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={ogDesc} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:locale" content={locale} />
+    {ogImage && <meta property="og:image" content={ogImage} />}
+    {articleMeta && (
+      <>
+        <meta property="article:published_time" content={articleMeta.publishedTime} />
+        <meta property="article:modified_time" content={articleMeta.modifiedTime} />
+        <meta property="article:author" content={articleMeta.author} />
+        {articleMeta.section && <meta property="article:section" content={articleMeta.section} />}
+        {articleMeta.tags.map((tag) => <meta property="article:tag" content={tag} />)}
+      </>
+    )}
+    <meta name="twitter:card" content={twitterCard} />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={ogDesc} />
+    {ogImage && <meta name="twitter:image" content={ogImage} />}
+    <link rel="preload" href={interLatin} as="font" type="font/woff2" crossorigin />
+    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <Header />
+    <main id="main">
+      <slot />
+    </main>
+    <Footer />
+    <BackToTop />
+  </body>
+</html>

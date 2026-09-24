@@ -23,8 +23,18 @@ keywords:
   - "Content Strategy"
 draft: false
 internalLinks:
-  - slug: "technical-seo-foundations"
-    anchor: "technical seo foundations"
+  - slug: technical-seo-foundations
+    anchor: technical seo foundations
+  - slug: ai-seo
+    anchor: AI SEO
+  - slug: content-marketing-services
+    anchor: content marketing services
+  - slug: generative-engine-optimization
+    anchor: generative engine optimization
+  - slug: local-seo-services
+    anchor: local SEO services
+  - slug: seo-services-for-small-business
+    anchor: SEO services for small business
 externalLinks:
   - label: "Content Strategy: Study Guide"
     url: "https://www.nngroup.com/articles/content-strategy-study-guide/"
@@ -63,7 +73,7 @@ As of August 2026, the teams that keep clusters healthy are the ones that assign
 - Refresh the dated paragraph instead of minting a new slug when evidence changes.
 
 <!-- CMS-INTERNAL:START -->
-Further reading: [technical seo foundations](/articles/technical-seo-foundations/).
+Further reading: [technical seo foundations](/articles/technical-seo-foundations/) · [AI SEO](/articles/ai-seo/) · [content marketing services](/articles/content-marketing-services/) · [generative engine optimization](/articles/generative-engine-optimization/) · [local SEO services](/articles/local-seo-services/) · [SEO services for small business](/articles/seo-services-for-small-business/).
 <!-- CMS-INTERNAL:END -->
 
 <!-- CMS-EXTERNAL:START -->

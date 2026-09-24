@@ -32,6 +32,16 @@ internalLinks:
     anchor: SEO services for small business
   - slug: website-redesign-service
     anchor: website redesign service
+  - slug: ai-driven-seo-tools
+    anchor: ai driven seo tools
+  - slug: ai-seo-tools
+    anchor: ai seo tools
+  - slug: best-seo-tools-for-beginners
+    anchor: best seo tools for beginners
+  - slug: free-ai-seo-tools
+    anchor: free ai seo tools
+  - slug: what-is-an-seo-tool
+    anchor: what is an seo tool
 externalLinks: []
 faqs:
   - question: "Is AI SEO the same as using AI tools to write my website content?"
@@ -164,5 +174,5 @@ Analysis from this period carries a clear message: a Google ranking can still ma
 - Winning at AI SEO requires a coordinated, sustained program — technical site quality, pillar-and-cluster content architecture, ongoing publishing, and regular performance measurement — treated as a continuous investment rather than a one-time project.
 
 <!-- CMS-INTERNAL:START -->
-Further reading: [content marketing services](/articles/content-marketing-services/) · [generative engine optimization](/articles/generative-engine-optimization/) · [local SEO services](/articles/local-seo-services/) · [SEO services for small business](/articles/seo-services-for-small-business/) · [website redesign service](/articles/website-redesign-service/).
+Further reading: [content marketing services](/articles/content-marketing-services/) · [generative engine optimization](/articles/generative-engine-optimization/) · [local SEO services](/articles/local-seo-services/) · [SEO services for small business](/articles/seo-services-for-small-business/) · [website redesign service](/articles/website-redesign-service/) · [ai driven seo tools](/articles/ai-driven-seo-tools/) · [ai seo tools](/articles/ai-seo-tools/) · [best seo tools for beginners](/articles/best-seo-tools-for-beginners/) · [free ai seo tools](/articles/free-ai-seo-tools/) · [what is an seo tool](/articles/what-is-an-seo-tool/).
 <!-- CMS-INTERNAL:END -->

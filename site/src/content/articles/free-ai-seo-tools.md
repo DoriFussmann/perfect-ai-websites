@@ -23,7 +23,17 @@ keywords:
   - AI SEO Tools
   - AI SEO
 draft: false
-internalLinks: []
+internalLinks:
+  - slug: ai-seo
+    anchor: AI SEO
+  - slug: ai-driven-seo-tools
+    anchor: ai driven seo tools
+  - slug: ai-seo-tools
+    anchor: ai seo tools
+  - slug: best-seo-tools-for-beginners
+    anchor: best seo tools for beginners
+  - slug: what-is-an-seo-tool
+    anchor: what is an seo tool
 externalLinks: []
 faqs:
   - question: "Is Google Search Console really free — no credit card, no trial?"
@@ -154,3 +164,7 @@ AI search is expanding as YouTube and Reddit gain citation visibility, while Cha
 - A practical free stack covers four core SEO jobs: keyword discovery (Google Keyword Planner, AlsoAsked), technical auditing (Screaming Frog free tier), on-page optimization (Rank Math free or ChatGPT free tier), and performance monitoring (Search Console).
 - Free AI visibility tools are emerging for small businesses — including Google Search Console's AI Overviews filter and limited free audits from tools like MeetGEO and Botric — making a baseline check on your AI search presence accessible at zero cost.
 - Free tools surface what to fix but do not fix it: the ROI ceiling of any free tool is set by the quality of the website beneath it, which is why a technical website rebuild is the investment that makes every tool on this list dramatically more effective.
+
+<!-- CMS-INTERNAL:START -->
+Further reading: [AI SEO](/articles/ai-seo/) · [ai driven seo tools](/articles/ai-driven-seo-tools/) · [ai seo tools](/articles/ai-seo-tools/) · [best seo tools for beginners](/articles/best-seo-tools-for-beginners/) · [what is an seo tool](/articles/what-is-an-seo-tool/).
+<!-- CMS-INTERNAL:END -->

@@ -21,7 +21,17 @@ imageAlt: "Small business owner reviewing an AI-powered search results page on a
 keywords:
   - AI SEO
 draft: false
-internalLinks: []
+internalLinks:
+  - slug: content-marketing-services
+    anchor: content marketing services
+  - slug: generative-engine-optimization
+    anchor: generative engine optimization
+  - slug: local-seo-services
+    anchor: local SEO services
+  - slug: seo-services-for-small-business
+    anchor: SEO services for small business
+  - slug: website-redesign-service
+    anchor: website redesign service
 externalLinks: []
 faqs:
   - question: "Is AI SEO the same as using AI tools to write my website content?"
@@ -152,3 +162,7 @@ Analysis from this period carries a clear message: a Google ranking can still ma
 - AI SEO, GEO, and AEO are distinct terms for closely related disciplines that all converge on the same core work: well-structured, authoritative, extractable content that AI systems can cite with confidence.
 - Small and local service businesses have an outsized opportunity in AI SEO because AI personalization and local signals favor specificity — a well-optimized local business can outperform national brands on hyper-relevant queries.
 - Winning at AI SEO requires a coordinated, sustained program — technical site quality, pillar-and-cluster content architecture, ongoing publishing, and regular performance measurement — treated as a continuous investment rather than a one-time project.
+
+<!-- CMS-INTERNAL:START -->
+Further reading: [content marketing services](/articles/content-marketing-services/) · [generative engine optimization](/articles/generative-engine-optimization/) · [local SEO services](/articles/local-seo-services/) · [SEO services for small business](/articles/seo-services-for-small-business/) · [website redesign service](/articles/website-redesign-service/).
+<!-- CMS-INTERNAL:END -->

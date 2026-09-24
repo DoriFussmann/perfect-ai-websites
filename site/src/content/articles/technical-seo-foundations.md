@@ -23,12 +23,22 @@ keywords:
   - "Technical SEO"
 draft: false
 internalLinks:
-  - slug: "improve-core-web-vitals-howto"
-    anchor: "improve core web vitals"
-  - slug: "core-web-vitals-complete-guide"
-    anchor: "core web vitals complete guide"
-  - slug: "content-strategy-foundations"
-    anchor: "content strategy foundations"
+  - slug: improve-core-web-vitals-howto
+    anchor: improve core web vitals
+  - slug: core-web-vitals-complete-guide
+    anchor: core web vitals complete guide
+  - slug: content-strategy-foundations
+    anchor: content strategy foundations
+  - slug: ai-seo
+    anchor: AI SEO
+  - slug: content-marketing-services
+    anchor: content marketing services
+  - slug: generative-engine-optimization
+    anchor: generative engine optimization
+  - slug: local-seo-services
+    anchor: local SEO services
+  - slug: seo-services-for-small-business
+    anchor: SEO services for small business
 externalLinks:
   - label: "Google Search Central documentation"
     url: "https://developers.google.com/search/docs"
@@ -76,7 +86,7 @@ The conversation around crawlability has shifted toward rendering honesty and ca
 - Fix crawl traps before commissioning more content on the same templates.
 
 <!-- CMS-INTERNAL:START -->
-Further reading: [improve core web vitals](/articles/improve-core-web-vitals-howto/) · [core web vitals complete guide](/articles/core-web-vitals-complete-guide/) · [content strategy foundations](/articles/content-strategy-foundations/).
+Further reading: [improve core web vitals](/articles/improve-core-web-vitals-howto/) · [core web vitals complete guide](/articles/core-web-vitals-complete-guide/) · [content strategy foundations](/articles/content-strategy-foundations/) · [AI SEO](/articles/ai-seo/) · [content marketing services](/articles/content-marketing-services/) · [generative engine optimization](/articles/generative-engine-optimization/) · [local SEO services](/articles/local-seo-services/) · [SEO services for small business](/articles/seo-services-for-small-business/).
 <!-- CMS-INTERNAL:END -->
 
 <!-- CMS-EXTERNAL:START -->

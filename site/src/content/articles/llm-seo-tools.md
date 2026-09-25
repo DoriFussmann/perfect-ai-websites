@@ -23,7 +23,17 @@ keywords:
   - LLM SEO
   - generative engine optimization
 draft: false
-internalLinks: []
+internalLinks:
+  - slug: generative-engine-optimization
+    anchor: generative engine optimization
+  - slug: how-to-do-llm-seo
+    anchor: how to do llm seo
+  - slug: llm-seo-agency
+    anchor: llm seo agency
+  - slug: llm-seo
+    anchor: llm seo
+  - slug: what-is-llm-seo
+    anchor: what is llm seo
 externalLinks: []
 faqs:
   - question: "What is the difference between an LLM SEO tool and a traditional rank tracker?"
@@ -151,3 +161,7 @@ Google has also begun rolling out passthrough URLs within search results, a mech
 - The tool market breaks into three practical tiers: free baseline audits for getting started; dedicated GEO platforms for ongoing monitoring; and traditional SEO tools with LLM add-ons for businesses that want one unified dashboard.
 - For small businesses on limited budgets, the best starting point is a free audit focused on 10–15 high-intent prompts relevant to your business — this surfaces the gap immediately and costs nothing.
 - Tools identify the citation gap but do not close it — improving LLM visibility requires pairing measurement with real content restructuring, technical SEO improvements, and sustained topical authority building.
+
+<!-- CMS-INTERNAL:START -->
+Further reading: [generative engine optimization](/articles/generative-engine-optimization/) · [how to do llm seo](/articles/how-to-do-llm-seo/) · [llm seo agency](/articles/llm-seo-agency/) · [llm seo](/articles/llm-seo/) · [what is llm seo](/articles/what-is-llm-seo/).
+<!-- CMS-INTERNAL:END -->

@@ -22,7 +22,17 @@ keywords:
   - LLM SEO
   - generative engine optimization
 draft: false
-internalLinks: []
+internalLinks:
+  - slug: generative-engine-optimization
+    anchor: generative engine optimization
+  - slug: how-to-do-llm-seo
+    anchor: how to do llm seo
+  - slug: llm-seo-agency
+    anchor: llm seo agency
+  - slug: llm-seo-tools
+    anchor: llm seo tools
+  - slug: llm-seo
+    anchor: llm seo
 externalLinks: []
 faqs:
   - question: "Is LLM SEO just another name for regular SEO?"
@@ -135,3 +145,7 @@ A major citation study this month also reshuffled how marketers should think abo
 - Local businesses are directly affected — AI Overviews already answer the majority of local search queries, and ranking in the traditional local pack does not guarantee appearing in AI-generated answers for the same search.
 - Early citation appearances typically emerge within 60–90 days of addressing technical and content signals, with authority compounding meaningfully over 6–9 months of consistent work.
 - The most damaging mistakes are ignoring technical crawlability, publishing thin or boilerplate content, neglecting off-site brand mentions, and treating LLM SEO as a one-time task rather than an ongoing system.
+
+<!-- CMS-INTERNAL:START -->
+Further reading: [generative engine optimization](/articles/generative-engine-optimization/) · [how to do llm seo](/articles/how-to-do-llm-seo/) · [llm seo agency](/articles/llm-seo-agency/) · [llm seo tools](/articles/llm-seo-tools/) · [llm seo](/articles/llm-seo/).
+<!-- CMS-INTERNAL:END -->

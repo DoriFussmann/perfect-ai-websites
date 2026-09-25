@@ -23,7 +23,17 @@ keywords:
   - LLM SEO
   - generative engine optimization
 draft: false
-internalLinks: []
+internalLinks:
+  - slug: generative-engine-optimization
+    anchor: generative engine optimization
+  - slug: how-to-do-llm-seo
+    anchor: how to do llm seo
+  - slug: llm-seo-tools
+    anchor: llm seo tools
+  - slug: llm-seo
+    anchor: llm seo
+  - slug: what-is-llm-seo
+    anchor: what is llm seo
 externalLinks: []
 faqs:
   - question: "What does an LLM SEO agency actually do that I can't do myself?"
@@ -141,3 +151,7 @@ As of late September 2026, the LLM SEO agency market is growing rapidly but rema
 - The cost comparison is more nuanced than it appears: DIY has low direct cost but high opportunity cost in owner time, while agency retainers vary widely — and a sub-$3,000-per-month "LLM SEO retainer" is likely just traditional SEO rebranded.
 - The highest-risk scenario is a partial DIY effort — adding some content without fixing technical foundations or building off-site authority — because LLMs evaluate sources holistically and a half-optimized site rarely earns consistent citations.
 - For most small and local businesses, a managed approach that includes a technical website rebuild alongside ongoing content publishing offers the most realistic path to AI visibility at a price point that specialist agencies rarely reach.
+
+<!-- CMS-INTERNAL:START -->
+Further reading: [generative engine optimization](/articles/generative-engine-optimization/) · [how to do llm seo](/articles/how-to-do-llm-seo/) · [llm seo tools](/articles/llm-seo-tools/) · [llm seo](/articles/llm-seo/) · [what is llm seo](/articles/what-is-llm-seo/).
+<!-- CMS-INTERNAL:END -->

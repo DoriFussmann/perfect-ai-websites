@@ -22,7 +22,17 @@ keywords:
   - local seo for small business
   - SEO services for small business
 draft: false
-internalLinks: []
+internalLinks:
+  - slug: seo-services-for-small-business
+    anchor: SEO services for small business
+  - slug: local-seo-benefits
+    anchor: local seo benefits
+  - slug: local-seo-tactics
+    anchor: local seo tactics
+  - slug: local-seo-vs-traditional-seo
+    anchor: local seo vs traditional seo
+  - slug: what-is-local-seo
+    anchor: what is local seo
 externalLinks: []
 faqs:
   - question: "How long does it take to see results from local SEO?"
@@ -188,3 +198,7 @@ The most significant local SEO developments of 2026 center on three areas: AI in
 - Your Google Business Profile is the single highest-leverage starting point — it drives Map Pack visibility, influences AI citations, and is free to use, yet most businesses have left it incomplete or inconsistent.
 - AI answer engines like ChatGPT and Perplexity now participate in local discovery, and the same trust signals that improve traditional local rankings — structured data, citations, reviews, and authoritative content — are exactly what those systems use to recommend businesses.
 - A technically weak website undermines everything else: schema markup, location-relevant content architecture, and mobile performance are not optional additions to local SEO — they are the foundation the entire strategy depends on.
+
+<!-- CMS-INTERNAL:START -->
+Further reading: [SEO services for small business](/articles/seo-services-for-small-business/) · [local seo benefits](/articles/local-seo-benefits/) · [local seo tactics](/articles/local-seo-tactics/) · [local seo vs traditional seo](/articles/local-seo-vs-traditional-seo/) · [what is local seo](/articles/what-is-local-seo/).
+<!-- CMS-INTERNAL:END -->

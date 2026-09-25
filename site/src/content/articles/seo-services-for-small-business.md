@@ -31,6 +31,16 @@ internalLinks:
     anchor: local SEO services
   - slug: website-redesign-service
     anchor: website redesign service
+  - slug: local-seo-benefits
+    anchor: local seo benefits
+  - slug: local-seo-for-small-business
+    anchor: local seo for small business
+  - slug: local-seo-tactics
+    anchor: local seo tactics
+  - slug: local-seo-vs-traditional-seo
+    anchor: local seo vs traditional seo
+  - slug: what-is-local-seo
+    anchor: what is local seo
 externalLinks: []
 faqs:
   - question: "How long does SEO take to show results for a small business?"
@@ -174,5 +184,5 @@ Current reporting reinforces that search visibility now depends on whether answe
 - Any SEO provider that cannot explain how they optimize for AI-generated answers alongside traditional Google search is delivering an incomplete service in the current environment.
 
 <!-- CMS-INTERNAL:START -->
-Further reading: [AI SEO](/articles/ai-seo/) · [content marketing services](/articles/content-marketing-services/) · [generative engine optimization](/articles/generative-engine-optimization/) · [local SEO services](/articles/local-seo-services/) · [website redesign service](/articles/website-redesign-service/).
+Further reading: [AI SEO](/articles/ai-seo/) · [content marketing services](/articles/content-marketing-services/) · [generative engine optimization](/articles/generative-engine-optimization/) · [local SEO services](/articles/local-seo-services/) · [website redesign service](/articles/website-redesign-service/) · [local seo benefits](/articles/local-seo-benefits/) · [local seo for small business](/articles/local-seo-for-small-business/) · [local seo tactics](/articles/local-seo-tactics/) · [local seo vs traditional seo](/articles/local-seo-vs-traditional-seo/) · [what is local seo](/articles/what-is-local-seo/).
 <!-- CMS-INTERNAL:END -->

@@ -34,7 +34,16 @@ internalLinks:
     anchor: seo vs aeo vs geo
   - slug: what-is-answer-engine-optimization
     anchor: what is answer engine optimization
-externalLinks: []
+externalLinks:
+  - label: "Engine | All-in-One Travel Management Software for Business"
+    url: "https://engine.com/"
+    addedAt: 2026-09-25
+  - label: Engine
+    url: "https://en.wikipedia.org/wiki/Engine"
+    addedAt: 2026-09-25
+  - label: "EnGiNE: Welcome to EnGiNE | EnGiNE"
+    url: "https://engine.maine.gov/"
+    addedAt: 2026-09-25
 faqs:
   - question: "Do I need a paid AEO tool right away, or can I start for free?"
     answer: "You can get a meaningful baseline at no cost. Bing Webmaster Tools' AI Performance report provides real first-party citation data covering Microsoft Copilot and Bing AI answers. HubSpot's free AEO Grader gives a one-time scored snapshot across ChatGPT, Perplexity, and Gemini in under two minutes. These free options are enough to confirm whether AI visibility is a real gap for your business before committing to a paid platform."
@@ -184,3 +193,7 @@ As of September 2026, the AEO tool market is moving rapidly and in two distinct 
 <!-- CMS-INTERNAL:START -->
 Further reading: [generative engine optimization](/articles/generative-engine-optimization/) · [answer engine optimization](/articles/answer-engine-optimization/) · [how to do answer engine optimization](/articles/how-to-do-answer-engine-optimization/) · [seo vs aeo vs geo](/articles/seo-vs-aeo-vs-geo/) · [what is answer engine optimization](/articles/what-is-answer-engine-optimization/).
 <!-- CMS-INTERNAL:END -->
+
+<!-- CMS-EXTERNAL:START -->
+Sources: [Engine | All-in-One Travel Management Software for Business](https://engine.com/) · [Engine](https://en.wikipedia.org/wiki/Engine) · [EnGiNE: Welcome to EnGiNE | EnGiNE](https://engine.maine.gov/).
+<!-- CMS-EXTERNAL:END -->

@@ -34,7 +34,13 @@ internalLinks:
     anchor: local seo tactics
   - slug: local-seo-vs-traditional-seo
     anchor: local seo vs traditional seo
-externalLinks: []
+externalLinks:
+  - label: Beginner's Guide to SEO (Search Engine Optimization)
+    url: "https://moz.com/beginners-guide-to-seo"
+    addedAt: 2026-09-25
+  - label: "What is SEO? (Search Engine Optimization)"
+    url: "https://www.mtu.edu/umc/services/websites/seo/what-is/"
+    addedAt: 2026-09-25
 faqs:
   - question: "Does local SEO work for service-area businesses that don't have a storefront customers visit?"
     answer: "Yes. Google explicitly supports service-area businesses (SABs) — plumbers, electricians, consultants, cleaners, and similar trades — that serve customers at the customer's location rather than a fixed address. You can configure your Google Business Profile to show your service area without displaying a street address. The key is that your website, profile, and content clearly describe where you operate and what you do, so Google can match you to relevant nearby searches."
@@ -164,3 +170,7 @@ Google is testing a new Business Profile verification option that lets owners su
 <!-- CMS-INTERNAL:START -->
 Further reading: [SEO services for small business](/articles/seo-services-for-small-business/) · [local seo benefits](/articles/local-seo-benefits/) · [local seo for small business](/articles/local-seo-for-small-business/) · [local seo tactics](/articles/local-seo-tactics/) · [local seo vs traditional seo](/articles/local-seo-vs-traditional-seo/).
 <!-- CMS-INTERNAL:END -->
+
+<!-- CMS-EXTERNAL:START -->
+Sources: [Beginner's Guide to SEO (Search Engine Optimization)](https://moz.com/beginners-guide-to-seo) · [What is SEO? (Search Engine Optimization)](https://www.mtu.edu/umc/services/websites/seo/what-is/).
+<!-- CMS-EXTERNAL:END -->

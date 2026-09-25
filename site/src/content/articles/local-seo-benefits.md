@@ -35,7 +35,10 @@ internalLinks:
     anchor: local seo vs traditional seo
   - slug: what-is-local-seo
     anchor: what is local seo
-externalLinks: []
+externalLinks:
+  - label: Department of Statistics
+    url: "https://statistics.stanford.edu/"
+    addedAt: 2026-09-25
 faqs:
   - question: "How long does it take to see measurable local SEO benefits?"
     answer: "Most small businesses begin seeing early movement in local search visibility within 60 to 90 days of implementing foundational changes — such as optimizing their Google Business Profile, building citations, and fixing technical website issues. Competitive Map Pack placement and significant lead-volume gains typically develop over three to six months, with results compounding as reviews accumulate and content earns authority over time."
@@ -144,3 +147,7 @@ Local SEO builds a compounding asset. But that asset is built on top of a websit
 <!-- CMS-INTERNAL:START -->
 Further reading: [SEO services for small business](/articles/seo-services-for-small-business/) · [local seo for small business](/articles/local-seo-for-small-business/) · [local seo tactics](/articles/local-seo-tactics/) · [local seo vs traditional seo](/articles/local-seo-vs-traditional-seo/) · [what is local seo](/articles/what-is-local-seo/).
 <!-- CMS-INTERNAL:END -->
+
+<!-- CMS-EXTERNAL:START -->
+Sources: [Department of Statistics](https://statistics.stanford.edu/).
+<!-- CMS-EXTERNAL:END -->

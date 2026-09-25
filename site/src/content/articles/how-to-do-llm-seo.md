@@ -34,7 +34,16 @@ internalLinks:
     anchor: llm seo
   - slug: what-is-llm-seo
     anchor: what is llm seo
-externalLinks: []
+externalLinks:
+  - label: Generative AI
+    url: "https://generativeai.net/"
+    addedAt: 2026-09-25
+  - label: "What is Generative AI?"
+    url: "https://www.ibm.com/think/topics/generative-ai"
+    addedAt: 2026-09-25
+  - label: The Case for Boycotting Generative AI - by Gary Marcus
+    url: "https://garymarcus.substack.com/p/the-case-for-boycotting-generative"
+    addedAt: 2026-09-25
 faqs:
   - question: "How long does it take to see results from LLM SEO?"
     answer: "Most businesses begin seeing measurable changes in AI citation frequency within 60 to 90 days of completing technical fixes and publishing pillar-and-cluster content. Schema markup and crawlability improvements tend to show the fastest impact, while off-site authority signals — directory listings, press mentions, community citations — compound more slowly over three to six months."
@@ -162,3 +171,7 @@ the brands winning in AI search are not winning because of a text file at their 
 <!-- CMS-INTERNAL:START -->
 Further reading: [generative engine optimization](/articles/generative-engine-optimization/) · [llm seo agency](/articles/llm-seo-agency/) · [llm seo tools](/articles/llm-seo-tools/) · [llm seo](/articles/llm-seo/) · [what is llm seo](/articles/what-is-llm-seo/).
 <!-- CMS-INTERNAL:END -->
+
+<!-- CMS-EXTERNAL:START -->
+Sources: [Generative AI](https://generativeai.net/) · [What is Generative AI?](https://www.ibm.com/think/topics/generative-ai) · [The Case for Boycotting Generative AI - by Gary Marcus](https://garymarcus.substack.com/p/the-case-for-boycotting-generative).
+<!-- CMS-EXTERNAL:END -->

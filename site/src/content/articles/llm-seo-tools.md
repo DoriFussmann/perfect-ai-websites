@@ -34,7 +34,16 @@ internalLinks:
     anchor: llm seo
   - slug: what-is-llm-seo
     anchor: what is llm seo
-externalLinks: []
+externalLinks:
+  - label: Mathematical optimization
+    url: "https://en.wikipedia.org/wiki/Mathematical_optimization"
+    addedAt: 2026-09-25
+  - label: Optimization Online
+    url: "https://optimization-online.org/"
+    addedAt: 2026-09-25
+  - label: "CRAN Task View: Optimization and Mathematical Programming"
+    url: "https://cran.r-project.org/view=Optimization"
+    addedAt: 2026-09-25
 faqs:
   - question: "What is the difference between an LLM SEO tool and a traditional rank tracker?"
     answer: "A traditional rank tracker records where your URL appears in a list of Google search results. An LLM SEO tool does something fundamentally different: it sends prompts to AI platforms like ChatGPT, Perplexity, and Gemini, then records whether your brand is mentioned, cited, or recommended inside the generated answer. Because AI engines draw from different signals than Google's ranking algorithm, the two types of tools measure separate things — and a business can score well on one while being invisible on the other."
@@ -165,3 +174,7 @@ Google has also begun rolling out passthrough URLs within search results, a mech
 <!-- CMS-INTERNAL:START -->
 Further reading: [generative engine optimization](/articles/generative-engine-optimization/) · [how to do llm seo](/articles/how-to-do-llm-seo/) · [llm seo agency](/articles/llm-seo-agency/) · [llm seo](/articles/llm-seo/) · [what is llm seo](/articles/what-is-llm-seo/).
 <!-- CMS-INTERNAL:END -->
+
+<!-- CMS-EXTERNAL:START -->
+Sources: [Mathematical optimization](https://en.wikipedia.org/wiki/Mathematical_optimization) · [Optimization Online](https://optimization-online.org/) · [CRAN Task View: Optimization and Mathematical Programming](https://cran.r-project.org/view=Optimization).
+<!-- CMS-EXTERNAL:END -->

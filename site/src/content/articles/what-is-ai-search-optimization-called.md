@@ -34,7 +34,13 @@ internalLinks:
     anchor: how to do ai search optimization
   - slug: seo-vs-ai-search-optimization
     anchor: seo vs ai search optimization
-externalLinks: []
+externalLinks:
+  - label: Department of Statistics
+    url: "https://statistics.stanford.edu/"
+    addedAt: 2026-09-25
+  - label: "Statistics & Data Science - Dietrich College of Humanities ..."
+    url: "https://www.cmu.edu/dietrich/statistics-datascience/index.html"
+    addedAt: 2026-09-25
 faqs:
   - question: "Is GEO the same as AEO?"
     answer: "In practice, yes — almost entirely. GEO (Generative Engine Optimization) focuses specifically on earning citations inside AI-generated answers from tools like ChatGPT, Perplexity, and Google AI Overviews. AEO (Answer Engine Optimization) originally covered featured snippets and voice search before AI chat existed, and has since expanded to cover the same AI answer surfaces GEO targets. The underlying tactics — structured content, entity consistency, third-party citations, direct question-answering — are nearly identical under both labels. The difference is mostly framing and history, not method."
@@ -183,3 +189,7 @@ between November 2023 and July 2026, GEO evolved from a set of heuristics into a
 <!-- CMS-INTERNAL:START -->
 Further reading: [generative engine optimization](/articles/generative-engine-optimization/) · [ai search optimization services](/articles/ai-search-optimization-services/) · [ai search optimization](/articles/ai-search-optimization/) · [how to do ai search optimization](/articles/how-to-do-ai-search-optimization/) · [seo vs ai search optimization](/articles/seo-vs-ai-search-optimization/).
 <!-- CMS-INTERNAL:END -->
+
+<!-- CMS-EXTERNAL:START -->
+Sources: [Department of Statistics](https://statistics.stanford.edu/) · [Statistics & Data Science - Dietrich College of Humanities ...](https://www.cmu.edu/dietrich/statistics-datascience/index.html).
+<!-- CMS-EXTERNAL:END -->

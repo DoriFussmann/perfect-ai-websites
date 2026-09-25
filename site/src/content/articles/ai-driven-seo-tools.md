@@ -34,7 +34,10 @@ internalLinks:
     anchor: free ai seo tools
   - slug: what-is-an-seo-tool
     anchor: what is an seo tool
-externalLinks: []
+externalLinks:
+  - label: Search Engine Optimization (SEO) Starter Guide
+    url: "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+    addedAt: 2026-09-25
 faqs:
   - question: "How many hours per month does it actually take to run AI SEO tools yourself?"
     answer: "Most honest estimates put serious DIY SEO at 10–20 hours per week, not per month. That includes learning the tools, interpreting keyword and audit data, planning content, writing or editing drafts, and tracking results. For business owners already stretched thin, that time cost often exceeds the subscription price many times over — which is why calculating your real hourly rate matters before committing to a self-managed approach."
@@ -191,3 +194,7 @@ reporting indicates that AI-driven traffic across tracked properties grew 527% y
 <!-- CMS-INTERNAL:START -->
 Further reading: [AI SEO](/articles/ai-seo/) · [ai seo tools](/articles/ai-seo-tools/) · [best seo tools for beginners](/articles/best-seo-tools-for-beginners/) · [free ai seo tools](/articles/free-ai-seo-tools/) · [what is an seo tool](/articles/what-is-an-seo-tool/).
 <!-- CMS-INTERNAL:END -->
+
+<!-- CMS-EXTERNAL:START -->
+Sources: [Search Engine Optimization (SEO) Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide).
+<!-- CMS-EXTERNAL:END -->

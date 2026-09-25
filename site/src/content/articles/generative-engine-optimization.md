@@ -61,7 +61,16 @@ internalLinks:
     anchor: llm seo
   - slug: what-is-llm-seo
     anchor: what is llm seo
-externalLinks: []
+externalLinks:
+  - label: Generative AI
+    url: "https://generativeai.net/"
+    addedAt: 2026-09-25
+  - label: "What is Generative AI?"
+    url: "https://www.ibm.com/think/topics/generative-ai"
+    addedAt: 2026-09-25
+  - label: "Explained: Generative AI"
+    url: "https://news.mit.edu/2023/explained-generative-ai-1109"
+    addedAt: 2026-09-25
 faqs:
   - question: "Is generative engine optimization the same as SEO?"
     answer: "No — they share some foundations but have different goals. Traditional SEO aims to rank your pages in a list of blue links. GEO aims to get your content selected, cited, and synthesized inside AI-generated answers. The tactics overlap (technical quality, authoritative content, strong entity signals), but GEO adds specific requirements like direct-answer writing structure, schema markup for AI extraction, and consistent entity signals across the web so AI systems can verify and trust your business."
@@ -209,3 +218,7 @@ recent data shows longer, more specific searches are gaining impression and conv
 <!-- CMS-INTERNAL:START -->
 Further reading: [answer engine optimization tools](/articles/answer-engine-optimization-tools/) · [answer engine optimization](/articles/answer-engine-optimization/) · [how to do answer engine optimization](/articles/how-to-do-answer-engine-optimization/) · [seo vs aeo vs geo](/articles/seo-vs-aeo-vs-geo/) · [what is answer engine optimization](/articles/what-is-answer-engine-optimization/) · [AI SEO](/articles/ai-seo/) · [content marketing services](/articles/content-marketing-services/) · [local SEO services](/articles/local-seo-services/) · [SEO services for small business](/articles/seo-services-for-small-business/) · [website redesign service](/articles/website-redesign-service/) · [ai search optimization services](/articles/ai-search-optimization-services/) · [ai search optimization](/articles/ai-search-optimization/) · [how to do ai search optimization](/articles/how-to-do-ai-search-optimization/) · [seo vs ai search optimization](/articles/seo-vs-ai-search-optimization/) · [what is ai search optimization called](/articles/what-is-ai-search-optimization-called/) · [how to do llm seo](/articles/how-to-do-llm-seo/) · [llm seo agency](/articles/llm-seo-agency/) · [llm seo tools](/articles/llm-seo-tools/) · [llm seo](/articles/llm-seo/) · [what is llm seo](/articles/what-is-llm-seo/).
 <!-- CMS-INTERNAL:END -->
+
+<!-- CMS-EXTERNAL:START -->
+Sources: [Generative AI](https://generativeai.net/) · [What is Generative AI?](https://www.ibm.com/think/topics/generative-ai) · [Explained: Generative AI](https://news.mit.edu/2023/explained-generative-ai-1109).
+<!-- CMS-EXTERNAL:END -->

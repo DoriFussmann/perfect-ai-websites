@@ -42,7 +42,16 @@ internalLinks:
     anchor: free ai seo tools
   - slug: what-is-an-seo-tool
     anchor: what is an seo tool
-externalLinks: []
+externalLinks:
+  - label: Artificial intelligence
+    url: "https://en.wikipedia.org/wiki/Artificial_intelligence"
+    addedAt: 2026-09-25
+  - label: Google Gemini
+    url: "https://gemini.google.com/"
+    addedAt: 2026-09-25
+  - label: "What is Artificial Intelligence (AI)?"
+    url: "https://cloud.google.com/learn/what-is-artificial-intelligence"
+    addedAt: 2026-09-25
 faqs:
   - question: "Is AI SEO the same as using AI tools to write my website content?"
     answer: "No — and this is one of the most important distinctions to understand. AI SEO refers to optimizing your website to be discovered and cited by AI-powered search engines like Google AI Overviews, ChatGPT, Perplexity, and Gemini. Using AI tools to speed up content writing is a production workflow choice, not a strategy. True AI SEO focuses on technical site structure, topical authority, schema markup, and content that AI systems can extract and cite with confidence — none of which is achieved simply by generating text faster."
@@ -176,3 +185,7 @@ Analysis from this period carries a clear message: a Google ranking can still ma
 <!-- CMS-INTERNAL:START -->
 Further reading: [content marketing services](/articles/content-marketing-services/) · [generative engine optimization](/articles/generative-engine-optimization/) · [local SEO services](/articles/local-seo-services/) · [SEO services for small business](/articles/seo-services-for-small-business/) · [website redesign service](/articles/website-redesign-service/) · [ai driven seo tools](/articles/ai-driven-seo-tools/) · [ai seo tools](/articles/ai-seo-tools/) · [best seo tools for beginners](/articles/best-seo-tools-for-beginners/) · [free ai seo tools](/articles/free-ai-seo-tools/) · [what is an seo tool](/articles/what-is-an-seo-tool/).
 <!-- CMS-INTERNAL:END -->
+
+<!-- CMS-EXTERNAL:START -->
+Sources: [Artificial intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence) · [Google Gemini](https://gemini.google.com/) · [What is Artificial Intelligence (AI)?](https://cloud.google.com/learn/what-is-artificial-intelligence).
+<!-- CMS-EXTERNAL:END -->

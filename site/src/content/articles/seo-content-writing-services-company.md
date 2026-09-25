@@ -34,7 +34,10 @@ internalLinks:
     anchor: seo content writing services
   - slug: seo-friendly-content-writing-services
     anchor: seo friendly content writing services
-externalLinks: []
+externalLinks:
+  - label: Department of Statistics
+    url: "https://statistics.stanford.edu/"
+    addedAt: 2026-09-25
 faqs:
   - question: "Can a single in-house writer realistically handle both content production and SEO strategy?"
     answer: "Rarely. Strong writing and strong SEO strategy are two different skill sets. A generalist writer can learn SEO basics, but building a full content architecture — including keyword mapping, topical clusters, competitor gap analysis, and on-page optimization — typically requires tools and experience that a single hire is unlikely to bring from day one. Most small businesses that rely on an in-house generalist end up producing content that is well-written but strategically uncoordinated, which limits ranking potential regardless of quality."
@@ -151,3 +154,7 @@ Small businesses are turning to outsourced blog writing in 2026 in growing numbe
 <!-- CMS-INTERNAL:START -->
 Further reading: [content marketing services](/articles/content-marketing-services/) · [best seo content writing services](/articles/best-seo-content-writing-services/) · [professional seo content writing services](/articles/professional-seo-content-writing-services/) · [seo content writing services](/articles/seo-content-writing-services/) · [seo friendly content writing services](/articles/seo-friendly-content-writing-services/).
 <!-- CMS-INTERNAL:END -->
+
+<!-- CMS-EXTERNAL:START -->
+Sources: [Department of Statistics](https://statistics.stanford.edu/).
+<!-- CMS-EXTERNAL:END -->

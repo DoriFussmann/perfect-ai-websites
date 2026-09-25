@@ -33,7 +33,16 @@ internalLinks:
     anchor: seo vs aeo vs geo
   - slug: what-is-answer-engine-optimization
     anchor: what is answer engine optimization
-externalLinks: []
+externalLinks:
+  - label: Mathematical optimization
+    url: "https://en.wikipedia.org/wiki/Mathematical_optimization"
+    addedAt: 2026-09-25
+  - label: Optimization Online
+    url: "https://optimization-online.org/"
+    addedAt: 2026-09-25
+  - label: "CRAN Task View: Optimization and Mathematical Programming"
+    url: "https://cran.r-project.org/view=Optimization"
+    addedAt: 2026-09-25
 faqs:
   - question: "Is AEO only for large brands with big content budgets?"
     answer: "No — AEO can actually level the playing field for smaller businesses. AI engines prioritize semantic clarity, factual accuracy, and topical depth over domain size or budget. A well-structured local service business with clear, authoritative content on a narrow topic can earn AI citations ahead of larger competitors, especially for niche or location-specific queries. The barrier to entry is quality and structure, not scale."
@@ -189,3 +198,7 @@ The AEO landscape is actively evolving heading into Q4 2026, with several develo
 <!-- CMS-INTERNAL:START -->
 Further reading: [generative engine optimization](/articles/generative-engine-optimization/) · [answer engine optimization tools](/articles/answer-engine-optimization-tools/) · [how to do answer engine optimization](/articles/how-to-do-answer-engine-optimization/) · [seo vs aeo vs geo](/articles/seo-vs-aeo-vs-geo/) · [what is answer engine optimization](/articles/what-is-answer-engine-optimization/).
 <!-- CMS-INTERNAL:END -->
+
+<!-- CMS-EXTERNAL:START -->
+Sources: [Mathematical optimization](https://en.wikipedia.org/wiki/Mathematical_optimization) · [Optimization Online](https://optimization-online.org/) · [CRAN Task View: Optimization and Mathematical Programming](https://cran.r-project.org/view=Optimization).
+<!-- CMS-EXTERNAL:END -->

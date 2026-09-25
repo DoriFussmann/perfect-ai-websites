@@ -35,7 +35,16 @@ internalLinks:
     anchor: local seo company pricing
   - slug: local-seo-company
     anchor: local seo company
-externalLinks: []
+externalLinks:
+  - label: Be Best - Trump White House Archives
+    url: "https://trumpwhitehouse.archives.gov/bebest/"
+    addedAt: 2026-09-25
+  - label: Company and Rating Search - Best's Credit Rating Center
+    url: "https://ratings.ambest.com/"
+    addedAt: 2026-09-25
+  - label: Best Aquaculture Practices
+    url: "https://www.bapcertification.org/"
+    addedAt: 2026-09-25
 faqs:
   - question: "Should I fix my website before hiring a local SEO company?"
     answer: "Yes — and most businesses underestimate how much a weak website limits their SEO results. If your site has crawl errors, missing schema, slow load times, or thin content, a local SEO company will be optimizing on a broken foundation. Technical issues prevent Google and AI answer engines from reading your signals correctly, which means GBP work, citations, and content can all underperform. Resolving website health first gives every downstream SEO effort a better chance of sticking."
@@ -141,3 +150,7 @@ Google's September 2026 search direction is sending a consistent message to busi
 <!-- CMS-INTERNAL:START -->
 Further reading: [local SEO services](/articles/local-seo-services/) · [best local seo company for small business](/articles/best-local-seo-company-for-small-business/) · [how to choose a local seo company](/articles/how-to-choose-a-local-seo-company/) · [local seo company pricing](/articles/local-seo-company-pricing/) · [local seo company](/articles/local-seo-company/).
 <!-- CMS-INTERNAL:END -->
+
+<!-- CMS-EXTERNAL:START -->
+Sources: [Be Best - Trump White House Archives](https://trumpwhitehouse.archives.gov/bebest/) · [Company and Rating Search - Best's Credit Rating Center](https://ratings.ambest.com/) · [Best Aquaculture Practices](https://www.bapcertification.org/).
+<!-- CMS-EXTERNAL:END -->

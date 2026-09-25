@@ -31,7 +31,10 @@ internalLinks:
     anchor: local SEO services
   - slug: seo-services-for-small-business
     anchor: SEO services for small business
-externalLinks: []
+externalLinks:
+  - label: Department of Statistics
+    url: "https://statistics.stanford.edu/"
+    addedAt: 2026-09-25
 faqs:
   - question: "What is typically included in a professional website redesign service?"
     answer: "A professional website redesign service should include a full technical audit and rebuild, SEO continuity (URL redirects, metadata migration, structured data), keyword research, pillar-and-cluster content architecture, Core Web Vitals optimization, mobile responsiveness, analytics configuration, and AEO readiness so the site can be cited by AI answer engines. Visual design and CMS development are the baseline — everything listed above is what separates a strategic redesign from a cosmetic refresh."
@@ -156,3 +159,7 @@ Web traffic from generative-AI-driven referrals increased more than tenfold in t
 <!-- CMS-INTERNAL:START -->
 Further reading: [AI SEO](/articles/ai-seo/) · [content marketing services](/articles/content-marketing-services/) · [generative engine optimization](/articles/generative-engine-optimization/) · [local SEO services](/articles/local-seo-services/) · [SEO services for small business](/articles/seo-services-for-small-business/).
 <!-- CMS-INTERNAL:END -->
+
+<!-- CMS-EXTERNAL:START -->
+Sources: [Department of Statistics](https://statistics.stanford.edu/).
+<!-- CMS-EXTERNAL:END -->

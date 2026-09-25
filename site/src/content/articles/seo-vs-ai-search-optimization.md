@@ -34,7 +34,16 @@ internalLinks:
     anchor: how to do ai search optimization
   - slug: what-is-ai-search-optimization-called
     anchor: what is ai search optimization called
-externalLinks: []
+externalLinks:
+  - label: Mathematical optimization
+    url: "https://en.wikipedia.org/wiki/Mathematical_optimization"
+    addedAt: 2026-09-25
+  - label: Optimization Online
+    url: "https://optimization-online.org/"
+    addedAt: 2026-09-25
+  - label: Copenhagen Optimization - Airport Operations Reimagined
+    url: "https://copenhagenoptimization.com/"
+    addedAt: 2026-09-25
 faqs:
   - question: "Does improving my traditional SEO automatically help my AI search visibility?"
     answer: "Partially, yes — but not completely. A technically healthy, authoritative, well-structured website is the prerequisite for both, so strong traditional SEO gives you a meaningful head start. However, AI search optimization requires an additional layer: content written to be extractable and directly quotable by AI systems, with clear entity signals, structured data, and answer-first formatting. A page that ranks #1 on Google is not automatically cited in AI-generated answers unless its content is also structured for AI retrieval."
@@ -152,3 +161,7 @@ On the platform side, Google completed a confirmed spam update in late August 20
 <!-- CMS-INTERNAL:START -->
 Further reading: [generative engine optimization](/articles/generative-engine-optimization/) · [ai search optimization services](/articles/ai-search-optimization-services/) · [ai search optimization](/articles/ai-search-optimization/) · [how to do ai search optimization](/articles/how-to-do-ai-search-optimization/) · [what is ai search optimization called](/articles/what-is-ai-search-optimization-called/).
 <!-- CMS-INTERNAL:END -->
+
+<!-- CMS-EXTERNAL:START -->
+Sources: [Mathematical optimization](https://en.wikipedia.org/wiki/Mathematical_optimization) · [Optimization Online](https://optimization-online.org/) · [Copenhagen Optimization - Airport Operations Reimagined](https://copenhagenoptimization.com/).
+<!-- CMS-EXTERNAL:END -->

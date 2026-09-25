@@ -41,7 +41,10 @@ internalLinks:
     anchor: local seo company pricing
   - slug: local-seo-company
     anchor: local seo company
-externalLinks: []
+externalLinks:
+  - label: Department of Statistics
+    url: "https://statistics.stanford.edu/"
+    addedAt: 2026-09-25
 faqs:
   - question: "How long does it take to see results from local SEO services?"
     answer: "Most businesses see early movement in local rankings within 60 to 90 days of consistent optimization work — particularly after completing a Google Business Profile, fixing citation inconsistencies, and addressing technical website issues. Sustained ranking improvements in competitive markets typically compound over six to twelve months as review velocity, content depth, and domain authority build over time."
@@ -178,3 +181,7 @@ Recent developments heading into the final months of 2026 reinforce the dual-sur
 <!-- CMS-INTERNAL:START -->
 Further reading: [AI SEO](/articles/ai-seo/) · [content marketing services](/articles/content-marketing-services/) · [generative engine optimization](/articles/generative-engine-optimization/) · [SEO services for small business](/articles/seo-services-for-small-business/) · [website redesign service](/articles/website-redesign-service/) · [best local seo company for google](/articles/best-local-seo-company-for-google/) · [best local seo company for small business](/articles/best-local-seo-company-for-small-business/) · [how to choose a local seo company](/articles/how-to-choose-a-local-seo-company/) · [local seo company pricing](/articles/local-seo-company-pricing/) · [local seo company](/articles/local-seo-company/).
 <!-- CMS-INTERNAL:END -->
+
+<!-- CMS-EXTERNAL:START -->
+Sources: [Department of Statistics](https://statistics.stanford.edu/).
+<!-- CMS-EXTERNAL:END -->

@@ -34,7 +34,10 @@ internalLinks:
     anchor: best seo tools for beginners
   - slug: what-is-an-seo-tool
     anchor: what is an seo tool
-externalLinks: []
+externalLinks:
+  - label: Search engine optimization
+    url: "https://en.wikipedia.org/wiki/Search_engine_optimization"
+    addedAt: 2026-09-25
 faqs:
   - question: "Is Google Search Console really free — no credit card, no trial?"
     answer: "Yes, completely free, permanently, with no card required at any point. Google Search Console is a property-level tool: you verify ownership of your site and gain access to real impressions, clicks, average position, indexing status, Core Web Vitals field data, and manual action alerts — all at zero cost. It is the only tool that gives you ground-truth data directly from Google, which no third-party estimate can fully replicate."
@@ -168,3 +171,7 @@ AI search is expanding as YouTube and Reddit gain citation visibility, while Cha
 <!-- CMS-INTERNAL:START -->
 Further reading: [AI SEO](/articles/ai-seo/) · [ai driven seo tools](/articles/ai-driven-seo-tools/) · [ai seo tools](/articles/ai-seo-tools/) · [best seo tools for beginners](/articles/best-seo-tools-for-beginners/) · [what is an seo tool](/articles/what-is-an-seo-tool/).
 <!-- CMS-INTERNAL:END -->
+
+<!-- CMS-EXTERNAL:START -->
+Sources: [Search engine optimization](https://en.wikipedia.org/wiki/Search_engine_optimization).
+<!-- CMS-EXTERNAL:END -->

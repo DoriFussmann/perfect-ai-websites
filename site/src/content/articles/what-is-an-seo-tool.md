@@ -34,7 +34,10 @@ internalLinks:
     anchor: best seo tools for beginners
   - slug: free-ai-seo-tools
     anchor: free ai seo tools
-externalLinks: []
+externalLinks:
+  - label: "What is SEO? (Search Engine Optimization)"
+    url: "https://www.mtu.edu/umc/services/websites/seo/what-is/"
+    addedAt: 2026-09-25
 faqs:
   - question: "Can an AI SEO tool get my website penalized by Google?"
     answer: "Not directly — the tools themselves do not put your site at risk. The risk comes from how you use them. If an AI SEO tool generates low-quality content at scale and you publish it without editing or review, that content can hurt your rankings. The tools are instruments; how you execute on their output determines whether the result helps or harms your site."
@@ -153,3 +156,7 @@ newer entrants like DeepSeek have quickly emerged as notable players in the AI s
 <!-- CMS-INTERNAL:START -->
 Further reading: [AI SEO](/articles/ai-seo/) · [ai driven seo tools](/articles/ai-driven-seo-tools/) · [ai seo tools](/articles/ai-seo-tools/) · [best seo tools for beginners](/articles/best-seo-tools-for-beginners/) · [free ai seo tools](/articles/free-ai-seo-tools/).
 <!-- CMS-INTERNAL:END -->
+
+<!-- CMS-EXTERNAL:START -->
+Sources: [What is SEO? (Search Engine Optimization)](https://www.mtu.edu/umc/services/websites/seo/what-is/).
+<!-- CMS-EXTERNAL:END -->

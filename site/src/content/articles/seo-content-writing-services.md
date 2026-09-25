@@ -33,7 +33,13 @@ internalLinks:
     anchor: seo content writing services company
   - slug: seo-friendly-content-writing-services
     anchor: seo friendly content writing services
-externalLinks: []
+externalLinks:
+  - label: "Planning Center Services: Worship Planning Software"
+    url: "https://www.planningcenter.com/services"
+    addedAt: 2026-09-25
+  - label: Online Services
+    url: "https://www.utah.gov/services/"
+    addedAt: 2026-09-25
 faqs:
   - question: "What is the difference between SEO content writing and regular blog writing?"
     answer: "Regular blog writing focuses on readability and brand voice. SEO content writing adds a disciplined layer on top: keyword research, search intent mapping, structured headings, internal linking, on-page optimization, and E-E-A-T signals. The goal is not just to inform readers but to earn rankings in search results and citations in AI-generated answers — outcomes that unfocused blogging rarely achieves."
@@ -174,3 +180,7 @@ three documented shifts are making SEO content writing services more consequenti
 <!-- CMS-INTERNAL:START -->
 Further reading: [content marketing services](/articles/content-marketing-services/) · [best seo content writing services](/articles/best-seo-content-writing-services/) · [professional seo content writing services](/articles/professional-seo-content-writing-services/) · [seo content writing services company](/articles/seo-content-writing-services-company/) · [seo friendly content writing services](/articles/seo-friendly-content-writing-services/).
 <!-- CMS-INTERNAL:END -->
+
+<!-- CMS-EXTERNAL:START -->
+Sources: [Planning Center Services: Worship Planning Software](https://www.planningcenter.com/services) · [Online Services](https://www.utah.gov/services/).
+<!-- CMS-EXTERNAL:END -->

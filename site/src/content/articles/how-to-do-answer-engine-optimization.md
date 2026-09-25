@@ -34,7 +34,16 @@ internalLinks:
     anchor: seo vs aeo vs geo
   - slug: what-is-answer-engine-optimization
     anchor: what is answer engine optimization
-externalLinks: []
+externalLinks:
+  - label: Mathematical optimization
+    url: "https://en.wikipedia.org/wiki/Mathematical_optimization"
+    addedAt: 2026-09-25
+  - label: Optimization Online
+    url: "https://optimization-online.org/"
+    addedAt: 2026-09-25
+  - label: "Is all non-convex optimization heuristic?"
+    url: "https://mathoverflow.net/questions/32533/is-all-non-convex-optimization-heuristic"
+    addedAt: 2026-09-25
 faqs:
   - question: "How long does it take to see results from AEO?"
     answer: "It depends on the engine. Perplexity retrieves content in near real time, so changes can surface in days. Google AI Overviews follow the standard Google index, typically weeks. ChatGPT moves slowest because it relies partly on training data cycles that refresh on longer timelines. Most practitioners see meaningful citation movement within 60–90 days of implementing structural and schema changes."
@@ -167,3 +176,7 @@ All six steps in this guide assume one underlying condition: that your website i
 <!-- CMS-INTERNAL:START -->
 Further reading: [generative engine optimization](/articles/generative-engine-optimization/) · [answer engine optimization tools](/articles/answer-engine-optimization-tools/) · [answer engine optimization](/articles/answer-engine-optimization/) · [seo vs aeo vs geo](/articles/seo-vs-aeo-vs-geo/) · [what is answer engine optimization](/articles/what-is-answer-engine-optimization/).
 <!-- CMS-INTERNAL:END -->
+
+<!-- CMS-EXTERNAL:START -->
+Sources: [Mathematical optimization](https://en.wikipedia.org/wiki/Mathematical_optimization) · [Optimization Online](https://optimization-online.org/) · [Is all non-convex optimization heuristic?](https://mathoverflow.net/questions/32533/is-all-non-convex-optimization-heuristic).
+<!-- CMS-EXTERNAL:END -->

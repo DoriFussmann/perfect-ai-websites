@@ -33,7 +33,10 @@ internalLinks:
     anchor: llm seo tools
   - slug: llm-seo
     anchor: llm seo
-externalLinks: []
+externalLinks:
+  - label: Department of Statistics
+    url: "https://statistics.stanford.edu/"
+    addedAt: 2026-09-25
 faqs:
   - question: "Is LLM SEO just another name for regular SEO?"
     answer: "They share the same foundation — crawlability, good content, technical health — but the success metrics differ. Regular SEO targets a position on a search results page. LLM SEO targets inclusion inside an AI-generated answer. A brand can earn a citation in a ChatGPT or Gemini response without the user ever clicking through to the site, so ROI needs to be tracked differently: by citation frequency and answer accuracy, not just rankings and click-through rate."
@@ -149,3 +152,7 @@ A major citation study this month also reshuffled how marketers should think abo
 <!-- CMS-INTERNAL:START -->
 Further reading: [generative engine optimization](/articles/generative-engine-optimization/) · [how to do llm seo](/articles/how-to-do-llm-seo/) · [llm seo agency](/articles/llm-seo-agency/) · [llm seo tools](/articles/llm-seo-tools/) · [llm seo](/articles/llm-seo/).
 <!-- CMS-INTERNAL:END -->
+
+<!-- CMS-EXTERNAL:START -->
+Sources: [Department of Statistics](https://statistics.stanford.edu/).
+<!-- CMS-EXTERNAL:END -->

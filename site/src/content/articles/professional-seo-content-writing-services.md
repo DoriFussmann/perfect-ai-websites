@@ -34,7 +34,13 @@ internalLinks:
     anchor: seo content writing services
   - slug: seo-friendly-content-writing-services
     anchor: seo friendly content writing services
-externalLinks: []
+externalLinks:
+  - label: Beginner's Guide to SEO (Search Engine Optimization)
+    url: "https://moz.com/beginners-guide-to-seo"
+    addedAt: 2026-09-25
+  - label: "What is SEO? (Search Engine Optimization)"
+    url: "https://www.mtu.edu/umc/services/websites/seo/what-is/"
+    addedAt: 2026-09-25
 faqs:
   - question: "How is an SEO content writing service different from just hiring a blog writer or freelance copywriter?"
     answer: "A freelance blog writer or copywriter produces words. A professional SEO content writing service produces strategy first — keyword research, content briefs, topical architecture — and then produces the words to execute it. The copywriter fills a blank page; the SEO content service determines what page should exist and why, before anything is written."
@@ -154,3 +160,7 @@ Google's March 2026 core update reinforced a clear priority for high-quality con
 <!-- CMS-INTERNAL:START -->
 Further reading: [content marketing services](/articles/content-marketing-services/) · [best seo content writing services](/articles/best-seo-content-writing-services/) · [seo content writing services company](/articles/seo-content-writing-services-company/) · [seo content writing services](/articles/seo-content-writing-services/) · [seo friendly content writing services](/articles/seo-friendly-content-writing-services/).
 <!-- CMS-INTERNAL:END -->
+
+<!-- CMS-EXTERNAL:START -->
+Sources: [Beginner's Guide to SEO (Search Engine Optimization)](https://moz.com/beginners-guide-to-seo) · [What is SEO? (Search Engine Optimization)](https://www.mtu.edu/umc/services/websites/seo/what-is/).
+<!-- CMS-EXTERNAL:END -->

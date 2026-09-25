@@ -33,7 +33,13 @@ internalLinks:
     anchor: seo vs ai search optimization
   - slug: what-is-ai-search-optimization-called
     anchor: what is ai search optimization called
-externalLinks: []
+externalLinks:
+  - label: Department of Statistics
+    url: "https://statistics.stanford.edu/"
+    addedAt: 2026-09-25
+  - label: "Statistics & Data Science - Dietrich College of Humanities ..."
+    url: "https://www.cmu.edu/dietrich/statistics-datascience/index.html"
+    addedAt: 2026-09-25
 faqs:
   - question: "What is AI search optimization and how is it different from regular SEO?"
     answer: "AI search optimization — also called generative engine optimization (GEO) or answer engine optimization (AEO) — is the practice of structuring your content and online presence so that AI-powered tools like ChatGPT, Perplexity, Gemini, and Google AI Overviews can understand, extract, and cite your business when generating answers to user queries. Traditional SEO focuses on earning a high position in a list of blue links. AI search optimization focuses on earning a citation inside the AI's synthesized answer — which often appears before the user ever sees a link list at all."
@@ -168,3 +174,7 @@ If you're running a business whose website was built before AI search was a real
 <!-- CMS-INTERNAL:START -->
 Further reading: [generative engine optimization](/articles/generative-engine-optimization/) · [ai search optimization services](/articles/ai-search-optimization-services/) · [how to do ai search optimization](/articles/how-to-do-ai-search-optimization/) · [seo vs ai search optimization](/articles/seo-vs-ai-search-optimization/) · [what is ai search optimization called](/articles/what-is-ai-search-optimization-called/).
 <!-- CMS-INTERNAL:END -->
+
+<!-- CMS-EXTERNAL:START -->
+Sources: [Department of Statistics](https://statistics.stanford.edu/) · [Statistics & Data Science - Dietrich College of Humanities ...](https://www.cmu.edu/dietrich/statistics-datascience/index.html).
+<!-- CMS-EXTERNAL:END -->

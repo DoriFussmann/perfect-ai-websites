@@ -34,7 +34,16 @@ internalLinks:
     anchor: seo vs ai search optimization
   - slug: what-is-ai-search-optimization-called
     anchor: what is ai search optimization called
-externalLinks: []
+externalLinks:
+  - label: Artificial intelligence
+    url: "https://en.wikipedia.org/wiki/Artificial_intelligence"
+    addedAt: 2026-09-25
+  - label: Google Gemini
+    url: "https://gemini.google.com/"
+    addedAt: 2026-09-25
+  - label: "What is Artificial Intelligence (AI)?"
+    url: "https://cloud.google.com/learn/what-is-artificial-intelligence"
+    addedAt: 2026-09-25
 faqs:
   - question: "Do I need a separate AI search optimization retainer if I already pay for SEO?"
     answer: "Not necessarily. If your SEO agency has genuinely updated its practice — restructuring content for AI extractability, implementing schema markup, monitoring citation rates across AI platforms, and building off-site entity signals — you may already have meaningful AI optimization coverage. But if the deliverables are still keyword rankings and blog posts without any of those elements, you are effectively paying for traditional SEO only, and a separate engagement or a provider upgrade is worth evaluating."
@@ -153,3 +162,7 @@ helping websites improve their visibility and AI readiness across multiple AI-po
 <!-- CMS-INTERNAL:START -->
 Further reading: [generative engine optimization](/articles/generative-engine-optimization/) · [ai search optimization](/articles/ai-search-optimization/) · [how to do ai search optimization](/articles/how-to-do-ai-search-optimization/) · [seo vs ai search optimization](/articles/seo-vs-ai-search-optimization/) · [what is ai search optimization called](/articles/what-is-ai-search-optimization-called/).
 <!-- CMS-INTERNAL:END -->
+
+<!-- CMS-EXTERNAL:START -->
+Sources: [Artificial intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence) · [Google Gemini](https://gemini.google.com/) · [What is Artificial Intelligence (AI)?](https://cloud.google.com/learn/what-is-artificial-intelligence).
+<!-- CMS-EXTERNAL:END -->

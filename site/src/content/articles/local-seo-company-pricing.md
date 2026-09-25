@@ -34,7 +34,16 @@ internalLinks:
     anchor: how to choose a local seo company
   - slug: local-seo-company
     anchor: local seo company
-externalLinks: []
+externalLinks:
+  - label: Local - Local WordPress development made simple
+    url: "https://localwp.com/"
+    addedAt: 2026-09-25
+  - label: "Local Restaurant & Bar | Jackson Hole Steakhouse on Town ..."
+    url: "https://www.localjh.com/"
+    addedAt: 2026-09-25
+  - label: "Dining | The Local | Bar | Entertainment | Boone NC"
+    url: "https://www.thelocalboone.com/"
+    addedAt: 2026-09-25
 faqs:
   - question: "Is a $300/month local SEO package ever worth it?"
     answer: "Rarely. At that price point, an agency can realistically allocate only two to three hours per month to your account. That's not enough time to manage your Google Business Profile, build citations, produce content, monitor reviews, and report on results. These packages typically cover one or two tasks at most, and in competitive markets they will not move the needle. If your market is genuinely low-competition and all you need is a light citation cleanup, a one-time project fee is a better investment than a cheap ongoing retainer."
@@ -170,3 +179,7 @@ As of late September 2026, local SEO pricing has continued its upward trend from
 <!-- CMS-INTERNAL:START -->
 Further reading: [local SEO services](/articles/local-seo-services/) · [best local seo company for google](/articles/best-local-seo-company-for-google/) · [best local seo company for small business](/articles/best-local-seo-company-for-small-business/) · [how to choose a local seo company](/articles/how-to-choose-a-local-seo-company/) · [local seo company](/articles/local-seo-company/).
 <!-- CMS-INTERNAL:END -->
+
+<!-- CMS-EXTERNAL:START -->
+Sources: [Local - Local WordPress development made simple](https://localwp.com/) · [Local Restaurant & Bar | Jackson Hole Steakhouse on Town ...](https://www.localjh.com/) · [Dining | The Local | Bar | Entertainment | Boone NC](https://www.thelocalboone.com/).
+<!-- CMS-EXTERNAL:END -->

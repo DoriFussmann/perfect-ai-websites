@@ -33,7 +33,10 @@ internalLinks:
     anchor: llm seo tools
   - slug: what-is-llm-seo
     anchor: what is llm seo
-externalLinks: []
+externalLinks:
+  - label: Department of Statistics
+    url: "https://statistics.stanford.edu/"
+    addedAt: 2026-09-25
 faqs:
   - question: "Is LLM SEO the same as traditional SEO?"
     answer: "No — but the two are deeply connected. Traditional SEO builds the technical foundation and domain authority that AI systems rely on when selecting sources. LLM SEO adds layers on top of that foundation: topical authority through pillar-and-cluster content, consistent brand entity signals across third-party sources, and clear prose that language models can excerpt and cite. Businesses that ignore either discipline risk leaving visibility on the table."
@@ -198,3 +201,7 @@ For most small businesses, the fastest path to AI visibility is a rebuild that a
 <!-- CMS-INTERNAL:START -->
 Further reading: [generative engine optimization](/articles/generative-engine-optimization/) · [how to do llm seo](/articles/how-to-do-llm-seo/) · [llm seo agency](/articles/llm-seo-agency/) · [llm seo tools](/articles/llm-seo-tools/) · [what is llm seo](/articles/what-is-llm-seo/).
 <!-- CMS-INTERNAL:END -->
+
+<!-- CMS-EXTERNAL:START -->
+Sources: [Department of Statistics](https://statistics.stanford.edu/).
+<!-- CMS-EXTERNAL:END -->

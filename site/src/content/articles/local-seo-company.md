@@ -33,7 +33,13 @@ internalLinks:
     anchor: how to choose a local seo company
   - slug: local-seo-company-pricing
     anchor: local seo company pricing
-externalLinks: []
+externalLinks:
+  - label: Department of Statistics
+    url: "https://statistics.stanford.edu/"
+    addedAt: 2026-09-25
+  - label: "Free small business counseling & local mentoring"
+    url: "https://www.sba.gov/counseling/"
+    addedAt: 2026-09-25
 faqs:
   - question: "How long does it take to see results from a local SEO company?"
     answer: "Most businesses begin to see measurable movement in local rankings within 3–6 months of consistent work. Reaching strong local dominance — owning multiple map pack positions across your core service keywords — typically takes 6–12 months. Results vary based on market competitiveness, how much work the website and Google Business Profile need at the start, and how consistently the agency publishes new content and builds citations."
@@ -190,3 +196,7 @@ The most recent SEO news roundups covering September 2026 highlight Google Maps 
 <!-- CMS-INTERNAL:START -->
 Further reading: [local SEO services](/articles/local-seo-services/) · [best local seo company for google](/articles/best-local-seo-company-for-google/) · [best local seo company for small business](/articles/best-local-seo-company-for-small-business/) · [how to choose a local seo company](/articles/how-to-choose-a-local-seo-company/) · [local seo company pricing](/articles/local-seo-company-pricing/).
 <!-- CMS-INTERNAL:END -->
+
+<!-- CMS-EXTERNAL:START -->
+Sources: [Department of Statistics](https://statistics.stanford.edu/) · [Free small business counseling & local mentoring](https://www.sba.gov/counseling/).
+<!-- CMS-EXTERNAL:END -->

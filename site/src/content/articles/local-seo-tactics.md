@@ -34,7 +34,16 @@ internalLinks:
     anchor: local seo vs traditional seo
   - slug: what-is-local-seo
     anchor: what is local seo
-externalLinks: []
+externalLinks:
+  - label: "Planning Center Services: Worship Planning Software"
+    url: "https://www.planningcenter.com/services"
+    addedAt: 2026-09-25
+  - label: Online Services
+    url: "https://www.utah.gov/services/"
+    addedAt: 2026-09-25
+  - label: Register an LLC with Georgia Secretary of State
+    url: "https://georgia.gov/register-llc"
+    addedAt: 2026-09-25
 faqs:
   - question: "How long does it take for local SEO tactics to show results?"
     answer: "Most businesses begin to see measurable improvements in local visibility within 60 to 90 days of completing their foundational work — Google Business Profile optimization, NAP consistency, and on-page fixes. Review velocity and content publishing compound over time, with significant ranking gains typically visible at the three-to-six-month mark. Competitive markets may take longer."
@@ -158,3 +167,7 @@ behavioral and engagement signals now separate businesses at position one from t
 <!-- CMS-INTERNAL:START -->
 Further reading: [SEO services for small business](/articles/seo-services-for-small-business/) · [local seo benefits](/articles/local-seo-benefits/) · [local seo for small business](/articles/local-seo-for-small-business/) · [local seo vs traditional seo](/articles/local-seo-vs-traditional-seo/) · [what is local seo](/articles/what-is-local-seo/).
 <!-- CMS-INTERNAL:END -->
+
+<!-- CMS-EXTERNAL:START -->
+Sources: [Planning Center Services: Worship Planning Software](https://www.planningcenter.com/services) · [Online Services](https://www.utah.gov/services/) · [Register an LLC with Georgia Secretary of State](https://georgia.gov/register-llc).
+<!-- CMS-EXTERNAL:END -->

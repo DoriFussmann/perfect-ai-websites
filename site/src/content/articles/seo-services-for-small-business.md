@@ -41,7 +41,16 @@ internalLinks:
     anchor: local seo vs traditional seo
   - slug: what-is-local-seo
     anchor: what is local seo
-externalLinks: []
+externalLinks:
+  - label: Business
+    url: "https://en.wikipedia.org/wiki/Business"
+    addedAt: 2026-09-25
+  - label: Get Listed on Google - Google Business Profile
+    url: "https://business.google.com/us/business-profile/"
+    addedAt: 2026-09-25
+  - label: Homepage - Small Business Administration
+    url: "https://www.sba.gov/"
+    addedAt: 2026-09-25
 faqs:
   - question: "How long does SEO take to show results for a small business?"
     answer: "Most small businesses begin to see early movement in local search results within three to six months of consistent, technically sound SEO work. Broader organic growth—meaningful ranking improvements across competitive keywords and measurable traffic increases—typically takes six to twelve months. SEO is cumulative: results compound over time rather than arriving all at once, which is why the foundation (site health, crawlability, content architecture) needs to be solid before expecting sustained gains."
@@ -186,3 +195,7 @@ Current reporting reinforces that search visibility now depends on whether answe
 <!-- CMS-INTERNAL:START -->
 Further reading: [AI SEO](/articles/ai-seo/) · [content marketing services](/articles/content-marketing-services/) · [generative engine optimization](/articles/generative-engine-optimization/) · [local SEO services](/articles/local-seo-services/) · [website redesign service](/articles/website-redesign-service/) · [local seo benefits](/articles/local-seo-benefits/) · [local seo for small business](/articles/local-seo-for-small-business/) · [local seo tactics](/articles/local-seo-tactics/) · [local seo vs traditional seo](/articles/local-seo-vs-traditional-seo/) · [what is local seo](/articles/what-is-local-seo/).
 <!-- CMS-INTERNAL:END -->
+
+<!-- CMS-EXTERNAL:START -->
+Sources: [Business](https://en.wikipedia.org/wiki/Business) · [Get Listed on Google - Google Business Profile](https://business.google.com/us/business-profile/) · [Homepage - Small Business Administration](https://www.sba.gov/).
+<!-- CMS-EXTERNAL:END -->

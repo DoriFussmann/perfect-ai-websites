@@ -34,7 +34,16 @@ internalLinks:
     anchor: local seo tactics
   - slug: what-is-local-seo
     anchor: what is local seo
-externalLinks: []
+externalLinks:
+  - label: "Planning Center Services: Worship Planning Software"
+    url: "https://www.planningcenter.com/services"
+    addedAt: 2026-09-25
+  - label: Online Services
+    url: "https://www.utah.gov/services/"
+    addedAt: 2026-09-25
+  - label: "Services overview | Background work"
+    url: "https://developer.android.com/develop/background-work/services"
+    addedAt: 2026-09-25
 faqs:
   - question: "Can a small business do both local SEO and traditional SEO at the same time?"
     answer: "Yes — and for most small businesses, the two strategies reinforce each other rather than compete. Traditional SEO tools like quality content, technical optimization, and backlinks are the foundation that local SEO sits on top of. A well-structured blog or resource section builds topical authority that supports local rankings, while a strong Google Business Profile and citation profile amplifies everything your website already does well. The practical question is usually one of priority: if you serve customers in a defined geographic area, start with local SEO fundamentals, then layer in content-driven traditional SEO as your capacity grows."
@@ -150,3 +159,7 @@ Google Business Profile actions including calls, directions, website clicks, and
 <!-- CMS-INTERNAL:START -->
 Further reading: [SEO services for small business](/articles/seo-services-for-small-business/) · [local seo benefits](/articles/local-seo-benefits/) · [local seo for small business](/articles/local-seo-for-small-business/) · [local seo tactics](/articles/local-seo-tactics/) · [what is local seo](/articles/what-is-local-seo/).
 <!-- CMS-INTERNAL:END -->
+
+<!-- CMS-EXTERNAL:START -->
+Sources: [Planning Center Services: Worship Planning Software](https://www.planningcenter.com/services) · [Online Services](https://www.utah.gov/services/) · [Services overview | Background work](https://developer.android.com/develop/background-work/services).
+<!-- CMS-EXTERNAL:END -->

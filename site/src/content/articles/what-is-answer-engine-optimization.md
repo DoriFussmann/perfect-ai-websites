@@ -34,7 +34,16 @@ internalLinks:
     anchor: how to do answer engine optimization
   - slug: seo-vs-aeo-vs-geo
     anchor: seo vs aeo vs geo
-externalLinks: []
+externalLinks:
+  - label: "Engine | All-in-One Travel Management Software for Business"
+    url: "https://engine.com/"
+    addedAt: 2026-09-25
+  - label: Engine
+    url: "https://en.wikipedia.org/wiki/Engine"
+    addedAt: 2026-09-25
+  - label: "EnGiNE: Welcome to EnGiNE | EnGiNE"
+    url: "https://engine.maine.gov/"
+    addedAt: 2026-09-25
 faqs:
   - question: "Does AEO require a completely new website?"
     answer: "Not always, but a technical audit almost always reveals issues that must be fixed first. If your site blocks AI crawlers in its robots.txt file, uses JavaScript-heavy rendering that prevents content extraction, or lacks structured data, no amount of well-written content will earn citations. Some sites can be patched; others have structural problems severe enough that a rebuild is the more efficient path. A proper assessment will tell you which situation you're in before you spend time on content work."
@@ -147,3 +156,7 @@ Independent research published in September 2026 from a 5.35 million-citation an
 <!-- CMS-INTERNAL:START -->
 Further reading: [generative engine optimization](/articles/generative-engine-optimization/) · [answer engine optimization tools](/articles/answer-engine-optimization-tools/) · [answer engine optimization](/articles/answer-engine-optimization/) · [how to do answer engine optimization](/articles/how-to-do-answer-engine-optimization/) · [seo vs aeo vs geo](/articles/seo-vs-aeo-vs-geo/).
 <!-- CMS-INTERNAL:END -->
+
+<!-- CMS-EXTERNAL:START -->
+Sources: [Engine | All-in-One Travel Management Software for Business](https://engine.com/) · [Engine](https://en.wikipedia.org/wiki/Engine) · [EnGiNE: Welcome to EnGiNE | EnGiNE](https://engine.maine.gov/).
+<!-- CMS-EXTERNAL:END -->

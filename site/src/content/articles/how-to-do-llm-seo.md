@@ -23,7 +23,17 @@ keywords:
   - LLM SEO
   - generative engine optimization
 draft: false
-internalLinks: []
+internalLinks:
+  - slug: generative-engine-optimization
+    anchor: generative engine optimization
+  - slug: llm-seo-agency
+    anchor: llm seo agency
+  - slug: llm-seo-tools
+    anchor: llm seo tools
+  - slug: llm-seo
+    anchor: llm seo
+  - slug: what-is-llm-seo
+    anchor: what is llm seo
 externalLinks: []
 faqs:
   - question: "How long does it take to see results from LLM SEO?"
@@ -148,3 +158,7 @@ the brands winning in AI search are not winning because of a text file at their 
 - Pillar-and-cluster content architecture signals topical authority to AI systems — a single pillar page supported by 8–12 interlinked cluster articles dramatically increases the likelihood of citation.
 - Write content to be quotable: short paragraphs that answer one question each, specific statistics, named methodologies, and concrete claims that AI can excerpt without distortion.
 - Off-site authority — diverse mentions across directories, local press, niche publications, and community platforms — matters as much as on-site optimization because LLMs draw from the entire web, not just your domain.
+
+<!-- CMS-INTERNAL:START -->
+Further reading: [generative engine optimization](/articles/generative-engine-optimization/) · [llm seo agency](/articles/llm-seo-agency/) · [llm seo tools](/articles/llm-seo-tools/) · [llm seo](/articles/llm-seo/) · [what is llm seo](/articles/what-is-llm-seo/).
+<!-- CMS-INTERNAL:END -->

@@ -45,8 +45,6 @@ faqs:
     answer: "Look for transparent deliverables (not vague promises), case studies showing results for businesses similar to yours, clear reporting tied to calls and conversions rather than just rankings, and a realistic timeline discussion. Be cautious of any agency that guarantees specific rankings or promises results in weeks — legitimate local SEO takes time and depends on coordinated on-site and off-site work."
 ---
 
-# Local SEO Company: What It Does, Costs, and Who to Hire
-
 When a potential customer searches "HVAC repair near me" or "best dentist in [city]," the businesses that appear in the top three map results didn't get there by accident. They got there because someone — either internally or through a specialist agency — spent months building the right signals in the right places. That's the work of a local SEO company, and for businesses that depend on foot traffic, phone calls, and service-area leads, it may be the highest-leverage marketing investment available.
 
 But the category is crowded, the pricing is opaque, and the outcomes are hard to evaluate before you've committed. This guide breaks down what a local SEO company actually does, how much it costs, what results are realistic, and why your website is more central to the whole equation than most agencies will tell you upfront.

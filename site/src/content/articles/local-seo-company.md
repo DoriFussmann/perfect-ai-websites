@@ -22,7 +22,17 @@ keywords:
   - local seo company
   - local SEO services
 draft: false
-internalLinks: []
+internalLinks:
+  - slug: local-seo-services
+    anchor: local SEO services
+  - slug: best-local-seo-company-for-google
+    anchor: best local seo company for google
+  - slug: best-local-seo-company-for-small-business
+    anchor: best local seo company for small business
+  - slug: how-to-choose-a-local-seo-company
+    anchor: how to choose a local seo company
+  - slug: local-seo-company-pricing
+    anchor: local seo company pricing
 externalLinks: []
 faqs:
   - question: "How long does it take to see results from a local SEO company?"
@@ -178,3 +188,7 @@ The most recent SEO news roundups covering September 2026 highlight Google Maps 
 - Pricing typically ranges from $500 to $3,000 per month for most small businesses, with meaningful results appearing in 3–6 months and strong local dominance taking 6–12 months of consistent, coordinated work.
 - Vetting a local SEO company means asking for comparable case studies, understanding the reporting structure, confirming what on-site work is included, and testing whether the agency gives realistic — not inflated — timeline expectations.
 - The website is the foundation of local SEO: a technically weak or poorly structured site limits what any amount of off-site signal work can achieve, which means site health must be addressed before or alongside any local SEO engagement.
+
+<!-- CMS-INTERNAL:START -->
+Further reading: [local SEO services](/articles/local-seo-services/) · [best local seo company for google](/articles/best-local-seo-company-for-google/) · [best local seo company for small business](/articles/best-local-seo-company-for-small-business/) · [how to choose a local seo company](/articles/how-to-choose-a-local-seo-company/) · [local seo company pricing](/articles/local-seo-company-pricing/).
+<!-- CMS-INTERNAL:END -->

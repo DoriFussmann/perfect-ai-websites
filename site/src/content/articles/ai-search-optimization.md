@@ -22,7 +22,17 @@ keywords:
   - ai search optimization
   - generative engine optimization
 draft: false
-internalLinks: []
+internalLinks:
+  - slug: generative-engine-optimization
+    anchor: generative engine optimization
+  - slug: ai-search-optimization-services
+    anchor: ai search optimization services
+  - slug: how-to-do-ai-search-optimization
+    anchor: how to do ai search optimization
+  - slug: seo-vs-ai-search-optimization
+    anchor: seo vs ai search optimization
+  - slug: what-is-ai-search-optimization-called
+    anchor: what is ai search optimization called
 externalLinks: []
 faqs:
   - question: "What is AI search optimization and how is it different from regular SEO?"
@@ -154,3 +164,7 @@ For businesses that take this seriously, the strategic question quickly becomes 
 A managed website rebuild that incorporates AI-ready content architecture from the foundation is a materially different proposition from adding a few FAQ sections to an existing site. It means that keyword research, pillar-and-cluster content structure, schema markup, and ongoing content publishing are designed into the site from the start — not retrofitted after the fact. DIY website builders give you a template, not a strategy. Traditional web agencies give you a design, not an optimized content system. And AI website-building tools can produce a presentable site quickly, but presentable is not the same as structurally optimized for the way AI answer engines evaluate and extract content.
 
 If you're running a business whose website was built before AI search was a real channel — or one that was built quickly and cheaply and has never had a real content strategy — the gap between where you are and where you need to be is real, but it's closeable. What it requires is a rebuild that treats AI search optimization not as a feature to be added later, but as a design principle from the first decision. That's what a properly structured engagement looks like, and it's worth understanding what that process involves before your competitors do.
+
+<!-- CMS-INTERNAL:START -->
+Further reading: [generative engine optimization](/articles/generative-engine-optimization/) · [ai search optimization services](/articles/ai-search-optimization-services/) · [how to do ai search optimization](/articles/how-to-do-ai-search-optimization/) · [seo vs ai search optimization](/articles/seo-vs-ai-search-optimization/) · [what is ai search optimization called](/articles/what-is-ai-search-optimization-called/).
+<!-- CMS-INTERNAL:END -->

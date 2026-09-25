@@ -23,7 +23,17 @@ keywords:
   - Local SEO for Small Business
   - SEO services for small business
 draft: false
-internalLinks: []
+internalLinks:
+  - slug: seo-services-for-small-business
+    anchor: SEO services for small business
+  - slug: local-seo-benefits
+    anchor: local seo benefits
+  - slug: local-seo-for-small-business
+    anchor: local seo for small business
+  - slug: local-seo-tactics
+    anchor: local seo tactics
+  - slug: local-seo-vs-traditional-seo
+    anchor: local seo vs traditional seo
 externalLinks: []
 faqs:
   - question: "Does local SEO work for service-area businesses that don't have a storefront customers visit?"
@@ -150,3 +160,7 @@ Google is testing a new Business Profile verification option that lets owners su
 - Local SEO applies to a wider range of businesses than most owners assume: brick-and-mortar retailers, service-area businesses, professional practices, and any business serving a geographically defined customer base all benefit.
 - Most small businesses see measurable ranking movement within three to six months of consistent effort, with compounding gains over twelve to eighteen months — faster than national SEO, but not instant.
 - For the majority of small businesses, the weakest link in their local SEO chain is their own website — and a site built from the ground up for local discovery is the highest-leverage investment available before anything else.
+
+<!-- CMS-INTERNAL:START -->
+Further reading: [SEO services for small business](/articles/seo-services-for-small-business/) · [local seo benefits](/articles/local-seo-benefits/) · [local seo for small business](/articles/local-seo-for-small-business/) · [local seo tactics](/articles/local-seo-tactics/) · [local seo vs traditional seo](/articles/local-seo-vs-traditional-seo/).
+<!-- CMS-INTERNAL:END -->

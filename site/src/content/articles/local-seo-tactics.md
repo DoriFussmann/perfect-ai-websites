@@ -23,7 +23,17 @@ keywords:
   - Local SEO for Small Business
   - SEO services for small business
 draft: false
-internalLinks: []
+internalLinks:
+  - slug: seo-services-for-small-business
+    anchor: SEO services for small business
+  - slug: local-seo-benefits
+    anchor: local seo benefits
+  - slug: local-seo-for-small-business
+    anchor: local seo for small business
+  - slug: local-seo-vs-traditional-seo
+    anchor: local seo vs traditional seo
+  - slug: what-is-local-seo
+    anchor: what is local seo
 externalLinks: []
 faqs:
   - question: "How long does it take for local SEO tactics to show results?"
@@ -144,3 +154,7 @@ behavioral and engagement signals now separate businesses at position one from t
 - NAP consistency across every directory, social profile, and your own website is a non-negotiable baseline; even minor formatting mismatches create ambiguity that suppresses local rankings across both Google and AI answer engines.
 - Review velocity — how frequently new reviews arrive — matters as much as total review count; build a triggered, post-service review request process rather than relying on organic asks.
 - Hyper-local content structured around a pillar-and-cluster model compounds authority over time and opens the keyword entry points that AI answer engines use to cite your business in zero-click results.
+
+<!-- CMS-INTERNAL:START -->
+Further reading: [SEO services for small business](/articles/seo-services-for-small-business/) · [local seo benefits](/articles/local-seo-benefits/) · [local seo for small business](/articles/local-seo-for-small-business/) · [local seo vs traditional seo](/articles/local-seo-vs-traditional-seo/) · [what is local seo](/articles/what-is-local-seo/).
+<!-- CMS-INTERNAL:END -->

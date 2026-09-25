@@ -23,7 +23,17 @@ keywords:
   - Local SEO for Small Business
   - SEO services for small business
 draft: false
-internalLinks: []
+internalLinks:
+  - slug: seo-services-for-small-business
+    anchor: SEO services for small business
+  - slug: local-seo-benefits
+    anchor: local seo benefits
+  - slug: local-seo-for-small-business
+    anchor: local seo for small business
+  - slug: local-seo-tactics
+    anchor: local seo tactics
+  - slug: what-is-local-seo
+    anchor: what is local seo
 externalLinks: []
 faqs:
   - question: "Can a small business do both local SEO and traditional SEO at the same time?"
@@ -136,3 +146,7 @@ Google Business Profile actions including calls, directions, website clicks, and
 - Local SEO is not a replacement for traditional SEO fundamentals — it is built on top of them; technical site health, quality content, and structured data serve both strategies simultaneously, making a strong website the foundation both require.
 - Service-area businesses without a public storefront face a distinct strategic situation: they need local SEO without the address-centric proximity signals that physical locations provide, making content depth, review velocity, and service-area page structure more important compensating factors.
 - AI-powered search is adding a third dimension to the local-vs-traditional question — the businesses most likely to be cited by Google AI Overviews and other answer engines are those investing in both content authority and local relevance, not treating the two as mutually exclusive.
+
+<!-- CMS-INTERNAL:START -->
+Further reading: [SEO services for small business](/articles/seo-services-for-small-business/) · [local seo benefits](/articles/local-seo-benefits/) · [local seo for small business](/articles/local-seo-for-small-business/) · [local seo tactics](/articles/local-seo-tactics/) · [what is local seo](/articles/what-is-local-seo/).
+<!-- CMS-INTERNAL:END -->

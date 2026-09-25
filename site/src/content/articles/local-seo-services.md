@@ -31,6 +31,16 @@ internalLinks:
     anchor: SEO services for small business
   - slug: website-redesign-service
     anchor: website redesign service
+  - slug: best-local-seo-company-for-google
+    anchor: best local seo company for google
+  - slug: best-local-seo-company-for-small-business
+    anchor: best local seo company for small business
+  - slug: how-to-choose-a-local-seo-company
+    anchor: how to choose a local seo company
+  - slug: local-seo-company-pricing
+    anchor: local seo company pricing
+  - slug: local-seo-company
+    anchor: local seo company
 externalLinks: []
 faqs:
   - question: "How long does it take to see results from local SEO services?"
@@ -166,5 +176,5 @@ Recent developments heading into the final months of 2026 reinforce the dual-sur
 - Local SEO compounds over time — rankings, review authority, and citation consistency build simultaneously — making it a more durable investment than paid advertising, which stops producing results the moment the budget ends.
 
 <!-- CMS-INTERNAL:START -->
-Further reading: [AI SEO](/articles/ai-seo/) · [content marketing services](/articles/content-marketing-services/) · [generative engine optimization](/articles/generative-engine-optimization/) · [SEO services for small business](/articles/seo-services-for-small-business/) · [website redesign service](/articles/website-redesign-service/).
+Further reading: [AI SEO](/articles/ai-seo/) · [content marketing services](/articles/content-marketing-services/) · [generative engine optimization](/articles/generative-engine-optimization/) · [SEO services for small business](/articles/seo-services-for-small-business/) · [website redesign service](/articles/website-redesign-service/) · [best local seo company for google](/articles/best-local-seo-company-for-google/) · [best local seo company for small business](/articles/best-local-seo-company-for-small-business/) · [how to choose a local seo company](/articles/how-to-choose-a-local-seo-company/) · [local seo company pricing](/articles/local-seo-company-pricing/) · [local seo company](/articles/local-seo-company/).
 <!-- CMS-INTERNAL:END -->

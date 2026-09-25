@@ -23,7 +23,17 @@ keywords:
   - Local SEO Company
   - local SEO services
 draft: false
-internalLinks: []
+internalLinks:
+  - slug: local-seo-services
+    anchor: local SEO services
+  - slug: best-local-seo-company-for-google
+    anchor: best local seo company for google
+  - slug: how-to-choose-a-local-seo-company
+    anchor: how to choose a local seo company
+  - slug: local-seo-company-pricing
+    anchor: local seo company pricing
+  - slug: local-seo-company
+    anchor: local seo company
 externalLinks: []
 faqs:
   - question: "How much does a local SEO company typically cost for a small business?"
@@ -151,3 +161,7 @@ For small business owners, current guidance emphasizes focusing on Google Busine
 - A local SEO agency provides the fastest access to a specialist team across all disciplines — technical, content, citations, GBP, and reporting — and for most single- or dual-location small businesses represents the most cost-efficient path to meaningful local visibility.
 - The best local SEO company for a small business is the one that specializes in businesses of your size, reports on real business outcomes, and treats your website's technical health as a prerequisite rather than an afterthought.
 - A hybrid model — agency for strategy and execution, business owner for reviews, local context, and community presence — consistently outperforms pure-agency or pure-DIY because it maps each party's strengths to the work that genuinely requires them.
+
+<!-- CMS-INTERNAL:START -->
+Further reading: [local SEO services](/articles/local-seo-services/) · [best local seo company for google](/articles/best-local-seo-company-for-google/) · [how to choose a local seo company](/articles/how-to-choose-a-local-seo-company/) · [local seo company pricing](/articles/local-seo-company-pricing/) · [local seo company](/articles/local-seo-company/).
+<!-- CMS-INTERNAL:END -->

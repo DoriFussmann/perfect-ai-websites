@@ -23,7 +23,17 @@ keywords:
   - Local SEO Company
   - local SEO services
 draft: false
-internalLinks: []
+internalLinks:
+  - slug: local-seo-services
+    anchor: local SEO services
+  - slug: best-local-seo-company-for-google
+    anchor: best local seo company for google
+  - slug: best-local-seo-company-for-small-business
+    anchor: best local seo company for small business
+  - slug: local-seo-company-pricing
+    anchor: local seo company pricing
+  - slug: local-seo-company
+    anchor: local seo company
 externalLinks: []
 faqs:
   - question: "How much should I expect to pay a local SEO company?"
@@ -102,3 +112,7 @@ traditional SEO is still essential — perhaps even more so — because search e
 - Any agency that skips a technical audit of your website before proposing a plan is skipping the foundation — page speed, mobile experience, local schema, and on-page structure all affect how well off-page SEO work performs.
 - Walk away from agencies offering guaranteed rankings, pre-packaged pricing quoted before asking about your business, vanity-metric-only reporting, or contracts that leave them holding your domain and data.
 - Expect early Google Business Profile movement within 4–6 weeks and meaningful ranking gains in 3–6 months; if your website is the bottleneck, address the technical foundation before the agency engagement begins.
+
+<!-- CMS-INTERNAL:START -->
+Further reading: [local SEO services](/articles/local-seo-services/) · [best local seo company for google](/articles/best-local-seo-company-for-google/) · [best local seo company for small business](/articles/best-local-seo-company-for-small-business/) · [local seo company pricing](/articles/local-seo-company-pricing/) · [local seo company](/articles/local-seo-company/).
+<!-- CMS-INTERNAL:END -->

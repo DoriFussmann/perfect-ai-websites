@@ -23,7 +23,17 @@ keywords:
   - AI Search Optimization
   - generative engine optimization
 draft: false
-internalLinks: []
+internalLinks:
+  - slug: generative-engine-optimization
+    anchor: generative engine optimization
+  - slug: ai-search-optimization-services
+    anchor: ai search optimization services
+  - slug: ai-search-optimization
+    anchor: ai search optimization
+  - slug: seo-vs-ai-search-optimization
+    anchor: seo vs ai search optimization
+  - slug: what-is-ai-search-optimization-called
+    anchor: what is ai search optimization called
 externalLinks: []
 faqs:
   - question: "How long does it take to start appearing in AI search answers?"
@@ -153,3 +163,7 @@ A major search platform simultaneously rolled out a spam update in August 2026 t
 - Content structured for extractability — with direct opening sentences, descriptive headings, and short-paragraph answers to real customer questions — is the format AI systems are built to cite.
 - FAQPage, HowTo, and Organization schema markup give AI crawlers an explicit machine-readable map of your content, and it is the optimization step most small businesses skip entirely.
 - Off-site authority signals — consistent directory citations, reviews, and third-party mentions — give AI systems the independent corroboration they weigh when deciding whether to surface and recommend a business.
+
+<!-- CMS-INTERNAL:START -->
+Further reading: [generative engine optimization](/articles/generative-engine-optimization/) · [ai search optimization services](/articles/ai-search-optimization-services/) · [ai search optimization](/articles/ai-search-optimization/) · [seo vs ai search optimization](/articles/seo-vs-ai-search-optimization/) · [what is ai search optimization called](/articles/what-is-ai-search-optimization-called/).
+<!-- CMS-INTERNAL:END -->

@@ -23,7 +23,17 @@ keywords:
   - AI Search Optimization
   - generative engine optimization
 draft: false
-internalLinks: []
+internalLinks:
+  - slug: generative-engine-optimization
+    anchor: generative engine optimization
+  - slug: ai-search-optimization
+    anchor: ai search optimization
+  - slug: how-to-do-ai-search-optimization
+    anchor: how to do ai search optimization
+  - slug: seo-vs-ai-search-optimization
+    anchor: seo vs ai search optimization
+  - slug: what-is-ai-search-optimization-called
+    anchor: what is ai search optimization called
 externalLinks: []
 faqs:
   - question: "Do I need a separate AI search optimization retainer if I already pay for SEO?"
@@ -139,3 +149,7 @@ helping websites improve their visibility and AI readiness across multiple AI-po
 - Red flags to exit on: guaranteed citation positions, reporting that relies only on keyword rankings, no off-site work in scope, and inability to show verifiable proof of AI citations earned for any client.
 - Google Business Profile optimization and NAP consistency are genuinely DIY-accessible starting points; schema markup, content architecture, and citation monitoring across AI platforms require specialized expertise and tooling.
 - For businesses already facing a website rebuild, bundling AI optimization into the rebuild itself is more efficient than retrofitting an optimization layer onto a poorly built site — the foundation determines how much the ongoing optimization can actually accomplish.
+
+<!-- CMS-INTERNAL:START -->
+Further reading: [generative engine optimization](/articles/generative-engine-optimization/) · [ai search optimization](/articles/ai-search-optimization/) · [how to do ai search optimization](/articles/how-to-do-ai-search-optimization/) · [seo vs ai search optimization](/articles/seo-vs-ai-search-optimization/) · [what is ai search optimization called](/articles/what-is-ai-search-optimization-called/).
+<!-- CMS-INTERNAL:END -->

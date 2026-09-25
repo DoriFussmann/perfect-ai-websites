@@ -41,6 +41,16 @@ internalLinks:
     anchor: SEO services for small business
   - slug: website-redesign-service
     anchor: website redesign service
+  - slug: ai-search-optimization-services
+    anchor: ai search optimization services
+  - slug: ai-search-optimization
+    anchor: ai search optimization
+  - slug: how-to-do-ai-search-optimization
+    anchor: how to do ai search optimization
+  - slug: seo-vs-ai-search-optimization
+    anchor: seo vs ai search optimization
+  - slug: what-is-ai-search-optimization-called
+    anchor: what is ai search optimization called
 externalLinks: []
 faqs:
   - question: "Is generative engine optimization the same as SEO?"
@@ -187,5 +197,5 @@ recent data shows longer, more specific searches are gaining impression and conv
 - GEO measurement requires tracking AI citation share, brand mentions in AI outputs, and referral traffic from AI platforms in GA4, in addition to traditional SEO metrics — a layer of analytics most small business websites currently lack entirely.
 
 <!-- CMS-INTERNAL:START -->
-Further reading: [answer engine optimization tools](/articles/answer-engine-optimization-tools/) · [answer engine optimization](/articles/answer-engine-optimization/) · [how to do answer engine optimization](/articles/how-to-do-answer-engine-optimization/) · [seo vs aeo vs geo](/articles/seo-vs-aeo-vs-geo/) · [what is answer engine optimization](/articles/what-is-answer-engine-optimization/) · [AI SEO](/articles/ai-seo/) · [content marketing services](/articles/content-marketing-services/) · [local SEO services](/articles/local-seo-services/) · [SEO services for small business](/articles/seo-services-for-small-business/) · [website redesign service](/articles/website-redesign-service/).
+Further reading: [answer engine optimization tools](/articles/answer-engine-optimization-tools/) · [answer engine optimization](/articles/answer-engine-optimization/) · [how to do answer engine optimization](/articles/how-to-do-answer-engine-optimization/) · [seo vs aeo vs geo](/articles/seo-vs-aeo-vs-geo/) · [what is answer engine optimization](/articles/what-is-answer-engine-optimization/) · [AI SEO](/articles/ai-seo/) · [content marketing services](/articles/content-marketing-services/) · [local SEO services](/articles/local-seo-services/) · [SEO services for small business](/articles/seo-services-for-small-business/) · [website redesign service](/articles/website-redesign-service/) · [ai search optimization services](/articles/ai-search-optimization-services/) · [ai search optimization](/articles/ai-search-optimization/) · [how to do ai search optimization](/articles/how-to-do-ai-search-optimization/) · [seo vs ai search optimization](/articles/seo-vs-ai-search-optimization/) · [what is ai search optimization called](/articles/what-is-ai-search-optimization-called/).
 <!-- CMS-INTERNAL:END -->

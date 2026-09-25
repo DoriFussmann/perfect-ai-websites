@@ -23,7 +23,17 @@ keywords:
   - AI Search Optimization
   - generative engine optimization
 draft: false
-internalLinks: []
+internalLinks:
+  - slug: generative-engine-optimization
+    anchor: generative engine optimization
+  - slug: ai-search-optimization-services
+    anchor: ai search optimization services
+  - slug: ai-search-optimization
+    anchor: ai search optimization
+  - slug: how-to-do-ai-search-optimization
+    anchor: how to do ai search optimization
+  - slug: seo-vs-ai-search-optimization
+    anchor: seo vs ai search optimization
 externalLinks: []
 faqs:
   - question: "Is GEO the same as AEO?"
@@ -169,3 +179,7 @@ between November 2023 and July 2026, GEO evolved from a set of heuristics into a
 - Google officially defines both GEO and AEO in its May 2026 guidance, then states that from its perspective, optimizing for generative AI search is still SEO — a finding that should make small businesses skeptical of vendors selling elaborate "special" AI tactics above solid foundational work.
 - Despite different names, the underlying work is nearly identical across all five terms: structure content for extraction, build entity consistency, earn third-party citations, maintain technical crawlability, and answer specific questions directly.
 - When evaluating vendors, ignore the acronym they use and instead ask what signals they move, how they measure AI citation rate across platforms, and whether their work covers both on-site content and off-site authority building.
+
+<!-- CMS-INTERNAL:START -->
+Further reading: [generative engine optimization](/articles/generative-engine-optimization/) · [ai search optimization services](/articles/ai-search-optimization-services/) · [ai search optimization](/articles/ai-search-optimization/) · [how to do ai search optimization](/articles/how-to-do-ai-search-optimization/) · [seo vs ai search optimization](/articles/seo-vs-ai-search-optimization/).
+<!-- CMS-INTERNAL:END -->

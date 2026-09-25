@@ -23,7 +23,17 @@ keywords:
   - AI Search Optimization
   - generative engine optimization
 draft: false
-internalLinks: []
+internalLinks:
+  - slug: generative-engine-optimization
+    anchor: generative engine optimization
+  - slug: ai-search-optimization-services
+    anchor: ai search optimization services
+  - slug: ai-search-optimization
+    anchor: ai search optimization
+  - slug: how-to-do-ai-search-optimization
+    anchor: how to do ai search optimization
+  - slug: what-is-ai-search-optimization-called
+    anchor: what is ai search optimization called
 externalLinks: []
 faqs:
   - question: "Does improving my traditional SEO automatically help my AI search visibility?"
@@ -138,3 +148,7 @@ On the platform side, Google completed a confirmed spam update in late August 20
 - For local service businesses, the Google local pack remains resilient against AI-driven click erosion, but AI citation is growing fastest for the research and comparison queries buyers ask before choosing a provider — exactly where local businesses need to win early.
 - AI search traffic is smaller in volume than traditional organic today but converts at a meaningfully higher rate, and early-mover advantage in AI citation is real because most small businesses have not yet optimized for it.
 - The most efficient 2026 strategy is a single, well-structured website rebuild that addresses both disciplines at once — rather than maintaining two separate campaigns — combining technical soundness, pillar-and-cluster content architecture, structured data, and ongoing content publishing.
+
+<!-- CMS-INTERNAL:START -->
+Further reading: [generative engine optimization](/articles/generative-engine-optimization/) · [ai search optimization services](/articles/ai-search-optimization-services/) · [ai search optimization](/articles/ai-search-optimization/) · [how to do ai search optimization](/articles/how-to-do-ai-search-optimization/) · [what is ai search optimization called](/articles/what-is-ai-search-optimization-called/).
+<!-- CMS-INTERNAL:END -->
